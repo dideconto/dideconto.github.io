@@ -220,45 +220,126 @@
                     >
                       <div class="card-body">
                         <div class="post-body">
-                          <h4>Node.JS</h4>
+                          <h4>--- Teórico ---</h4><br>
+                          <h4>Node.JS</h4><br>
+                          <h5>O que é:</h5>
 
                           <p>
-                            .
+                            O Node.js se caracteriza como um ambiente de execução JavaScript. 
+                            Com ele, o usuário pode criar aplicações sem depender do browser 
+                            para isso. Com alta capacidade de escalabilidade, boa flexibilidade, 
+                            arquitetura e baixo custo, torna-se uma ótima opção para programação.
+
                           </p>
+                          <h5>Server-side e Client-side: quais as diferenças? </h5>
                           <p>
-                           .
+                            As linguagens server-side, ou seja, do lado do servidor, 
+                            são linguagens em que o código escrito é compreendido pelo servidor. 
+                            Então, é processado e a resposta é dada ao navegador.
+                          </p>
+                          <p> 
+                            Já as linguagens client-side (lado do cliente) são apenas 
+                            compreendidas pelo navegador, tendo seu processamento por 
+                            meio do browser, e não do servidor. Como não é processamento 
+                            interno, o usuário conta com respostas ágeis e utiliza menos 
+                            largura de banda.                         
                           </p>
                           <p>
                             <img
-                              src=""
+                              src="img/nodejs.jpg"
                               alt="..."
                               class="rounded mx-auto d-block"
                               style="width: 50%;"
                             />
                           </p>
-                          <h5>Titulo</h5>
+                          <h4>Características do Node.js:</h4>
                           <p>
-                            .
+                            Um dos grandes diferenciais é a execução do Node single thread, 
+                            quando apenas uma thread executa o código da aplicação. Dessa 
+                            maneira, menos recursos computacionais são exigidos, pois não 
+                            é necessário criar uma nova thread para cada requisição recebida.
                           </p>
                           <p>
-                            .
+                            Em um servidor tradicional, como os recursos são limitados, as 
+                            novas requisições só seriam tratadas depois que os recursos 
+                            estiverem liberados, o que pode atrasar o usuário.
                           </p>
                           <p>
-                           .
+                            O Node.js utiliza apenas uma thread, chamada de Event Loop, 
+                            que cria novos eventos a cada requisição recebida. Ações de 
+                            entrada e saída, por exemplo, não precisam aguardar a finalização 
+                            de uma operação para que outra seja iniciada.
+                          </p>
+                            <h4>Benefícios trazidos pelo Node.js:</h4> 
+                          <p><br>
+                            <strong>Produtividade</strong><br>
+                            Como o JavaScript é a linguagem mais usada em desenvolvimento web, 
+                            o Node.js já conta com uma gama de possibilidades, inclusive com a 
+                            reutilização de códigos, em que as equipes podem aproveitar melhor 
+                            os recursos disponíveis.
                           </p>
                           <p>
-                            <strong>Tecnologias: </strong> .
-                          </p>
-                          <h5>Titulo</h5>
-                          <p>
-                            .
-                          </p>
-                          <p>
-                           .
+                            <strong>Flexibilidade</strong><br>
+                            O Node.js é uma plataforma muito versátil e que pode ser usada em 
+                            inúmeros cenários. Seu gerenciador de pacotes (Node Package Manager) 
+                            é classificado como o maior repositório de softwares disponível.
                           </p>
                           <p>
-                            <strong>Tecnologias: </strong> .
+                            <strong>Leveza</strong><br>
+                            Devido ao seu formato single thread, os recursos computacionais são 
+                            consideravelmente menos exigidos ao usar a linguagem Node. A velocidade 
+                            na disponibilização de um sistema para uso (deploy) e na replicação de 
+                            máquinas pode crescer muito.
                           </p>
+
+                          <h4>--- Prático ---</h4><br>
+                          <h5>Iniciando o Projeto</h5>
+                          <p>
+                            No terminal do Visual Studio Code será usado o comando ‘npm init’ 
+                            ou ‘npm init -yes’ (para passar todas as solicitações) para criar 
+                            um arquivo ‘package.json’ que irá ser parte fundamental do projeto, 
+                            contendo, por exemplo, as dependências dos pacotes e o script de start.
+
+                            Caso o terminal não esteja aberto, utilize a barra superior ou o comando 
+                            'ctrl+shift+’.
+                          </p>
+                          <p>
+                            <img
+                            src="img/imagem_1_nodejs.JPG"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                          </p>
+                          <h5>Instalando bibliotecas</h5>
+                          <p>
+                            <strong>npm install:</strong> Instalar a biblioteca;<br>
+                            <strong>npm uninstall:</strong> Desinstalar a biblioteca;<br><br>
+                            <strong>npm install express:</strong> Instalar biblioteca do express.
+
+                          </p>
+                          <p>
+                            <img
+                            src="img/imagem_2_nodejs.JPG"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                          </p>
+                          <p>
+                            Note que será criado um arquivo <strong>package-lock.json</strong> que não necessita alteração. 
+                            Esse arquivo será alterado automaticamente com outras instalações de pacotes.
+                          </p>
+                          <footer class="blockquote-footer">
+                            <a
+                              href="https://www.totvs.com/blog/developers/node-js/"
+                              >TOTvs</a
+                            >
+                            <cite title="Source Title"
+                              >Node.js: O que é, quais as características e vantagens?</cite
+                            >
+                          </footer>
+                          
                          
                         </div>
                       </div>
@@ -286,10 +367,9 @@
                     >
                       <div class="card-body">
                         <div class="post-body">
+                          <h4>--- Teórico ---</h4><br>
                           <h4>Introdução ao Express</h4>
-                          <div id="teorico">
-                            <p></p>
-                            <h5>--- Teórico ---</h5>
+                          <div id="teorico">                            
                             <p>
                               <strong>Express </strong> é o framework Node mais conhecido e uma das
                               bibliotecas mais profundas para uma série de outros frameworks do Node. 
@@ -304,8 +384,14 @@
                                   Integrar <strong>"view engines"</strong> para inserir dados nos templates.
                                 </li>
                                 <li>
-                                  Definir as configurações comuns da aplicação web, como a <strong>porta</strong> a ser usada 
-                                  para conexão e a localização dos modelos que são usados para renderizar a resposta.
+                                  Gerenciar <strong>requisições</strong> de diferentes verbos HTTP em diferentes URLs.
+                                </li>
+                                <li>
+                                  Definir as configurações comuns da <strong>aplicação web</strong>, como a porta a ser usada para conexão 
+                                  e a localização dos modelos que são usados para renderizar a resposta.
+                                </li>
+                                <li>
+                                  Adicionar novos processos de <strong>requisição</strong> por meio de "middleware" em qualquer ponto da "fila" de requisições.
                                 </li>
                               </ul>
                             </p>
@@ -314,7 +400,7 @@
                           </div>
                           <div id="pratico">
                             <p></p>
-                            <h5>--- Prático ---</h5>
+                            <h4>--- Prático ---</h4>
                             <p>
                               <img
                               src="img/express-uso.jpg"
@@ -354,8 +440,8 @@
                             </div>
                           </div>
                           <div id="gitignore">
-                            <p></p>
-                            <h5>--- Git Ignore ---</h5>
+                            <p></p><br>
+                            <h4>Git Ignore</h4>
                             <p>
                               O arquivo <strong>.gitignore</strong> se comunica com o git para dizer 
                               quais arquivos/diretórios ele deve ignorar ao fazer um 
@@ -373,6 +459,15 @@
                               style="width: 50%;"
                             />
                             </p>   
+                            <footer class="blockquote-footer">
+                              <a
+                                href="https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdu%C3%A7%C3%A3o"
+                                >MDN web docs</a
+                              >
+                              <cite title="Source Title"
+                                >Uma Introdução ao Express</cite
+                              >
+                            </footer>
                           </div>
                         </div>
                       </div>
