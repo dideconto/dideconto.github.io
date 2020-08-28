@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Aula III - 20/08/2020</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom icon font-->
+    <link rel="stylesheet" href="../../css/fontastic.css" />
+    <!-- Google fonts - Open Sans-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+    />
+    <!-- Fancybox-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.css"
+    />
+    <!-- theme stylesheet-->
+    <link
+      rel="stylesheet"
+      href="../../css/style.default.css"
+      id="theme-stylesheet"
+    />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../../css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <header class="header">
+      <!-- Main Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <div
+            class="navbar-header d-flex align-items-center justify-content-between"
+          >
+            <!-- Navbar Brand --><a
+              href="../../../index.html"
+              class="navbar-brand"
+              >Blog de Desenvolvimento Web II</a
+            >
+            <!-- Toggle Button-->
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarcollapse"
+              aria-controls="navbarcollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler"
+            >
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+          <!-- Navbar Menu -->
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../../../instructions.html" class="nav-link"
+                  >Instruções</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../../../contacts.html" class="nav-link">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a href="../../../about.html" class="nav-link">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <!-- Latest Posts -->
+        <main class="post blog-post col-lg-12">
+          <div class="container">
+            <div class="post-single">
+              <div class="post-thumbnail" style="text-align: center;">
+                <iframe
+                  height="315"
+                  width="560"
+                  src="https://www.youtube.com/embed/DSmlTACqg_4"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div style="margin-top: 30px;" class="post-details">
+                <h1>
+                  Aula III - 20/08/2020
+                </h1>
+                <div
+                  class="post-footer d-flex align-items-center flex-column flex-sm-row"
+                >
+                  <!-- PARTICIPANTES -->
+                  <!-- Lukas Ferreira -->
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/lukasferreira.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span>Lukas F.</span></div></a
+                  >
+                   <!-- Felipe Krajevski Dalperio -->
+                   <a
+                   href="#"
+                   class="author d-flex align-items-center flex-wrap"
+                 >
+                   <div class="avatar">
+                     <img
+                       src="../../img-authors/felipedalperio.jpg"
+                       alt="..."
+                       class="img-fluid"
+                     />
+                   </div>
+                   <div class="title"><span>Felipe Dalperio</span></div></a
+                 >
+                  <!-- Matheus Dijan -->
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/matheusdijan.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span>Matheus Dijan</span></div></a
+                  >
+                   <!-- Pedro Henrique -->
+                   <a
+                   href="#"
+                   class="author d-flex align-items-center flex-wrap"
+                 >
+                   <div class="avatar">
+                     <img
+                       src="../../img-authors/pedrohenrique.jpg"
+                       alt="..."
+                       class="img-fluid"
+                     />
+                   </div>
+                   <div class="title"><span>Pedro H.</span></div></a
+                 >
+                  <!-- Vinicius Junior -->
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/juniorvinicius.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span>Vinicius J..</span></div></a
+                  >
+                  <!--Kamilla Delfino -->
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/kamilladelfino.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span> Kamilla D. </span></div></a
+                  >
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <!--Isabelle de Andrade Bittencourt-->
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/isabellebittencourt.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span>Isabelle A.</span></div></a
+                  >
+                  <!--João Gonçalves-->
+                  <a
+                    href="#"
+                    class="author d-flex align-items-center flex-wrap"
+                  >
+                    <div class="avatar">
+                      <img
+                        src="../../img-authors/joaogoncalves.jpg"
+                        alt="..."
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="title"><span>João G.</span></div></a
+                  >
+                  <div class="d-flex align-items-center flex-wrap">
+                    <div class="date">
+                      <i class="icon-clock"></i> Postado em: 27/08/2020
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  style="margin-top: 30px;"
+                  class="accordion"
+                  id="accordionExample"
+                >
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          NODEMON
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+                          <h4>O QUE É O NODEMON?</h4>
+
+                          <p>
+                            Nodemon é um utilitário que serve para auxiliar no
+                            desenvolvimento de uma aplicação. Ele monitora
+                            mudanças no código-fonte. Sua principal vantagem é
+                            automaticamente reiniciar o servidor.
+                          </p>
+
+                          <h4>COMO INSTALAR O NODEMON NO MEU PROJETO?</h4>
+                          <p>
+                            No terminal do VS, digite o comando “npm install
+                            nodemon –save-dev” (o “—save-dev” é para no
+                            package.json ele for instalado como dependência de
+                            desenvolvimento e não uma global, como o express).
+                            Ou digite “npm install -g nodemon” para instalar o
+                            instalar como global;
+                          </p>
+                          <p>
+                            <img
+                              src="img/como_baixar_nodemon.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Ou para instalar o nodemon como global
+                          </p>
+                          <p>
+                            <img
+                              src="img/como_baixar_nodemon_global.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <h5>RODAR UMA APLICAÇÃO COM O NODEMON</h5>
+                          <p>
+                            No terminal do VS, digite:
+                          </p>
+                          <p>
+                            <img
+                              src="img/rodando_aplicacao.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            <strong>OBSERVAÇÃO: </strong>
+                            Caso tenha dado erro ao rodar o nodemon, abra o
+                            arquivo package.json e crie a propriedade destacada
+                            na imagem abaixo para rodar o nodemon diretamente
+                            pelo npm;
+                          </p>
+                          <p>
+                            <img
+                              src="img/package_json.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%;"
+                            />
+                          </p>
+                          <p>
+                            Para rodar a aplicação nodemon, digite no terminal
+                            “npm run dev”
+                          </p>
+                          <p>
+                            <img
+                              src="img/como_rodar_aplicacao.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <h5>COMO ORGANIZAR MELHOR SUA APLICAÇÃO?</h5>
+                          <p>
+                            Para melhor aproveitamento do projeto, é necessário
+                            que haja um boa organização do código. Para o
+                            projeto é necessário criar um repositório único para
+                            que ele realize o commit no GitHub.
+                          </p>
+                          <p>
+                            Para dar início, é necessário criar uma pasta com o
+                            nome “server” que é a pasta do servidor para
+                            realização do desenvolvimento, em seguida devemos
+                            adicionar a ela nosso arquivo “index.js”, o mesmo
+                            será responsável por subir nosso servidor.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/organizar_codigo_01.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%;"
+                            />
+                          </p>
+                          <p>
+                            Ao realizar a transferência do arquivo index.js para
+                            a pasta server, nosso sistema acusa um erro por não
+                            encontrar no local, para realizar o ajuste deve-se
+                            ir no arquivo package.jason e inserir:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_02.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_03.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            Para melhor visibilidade e aproveitamento da
+                            aplicação, separamos os arquivos do index.js em
+                            partes, ou seja separamos os que rodam a aplicação e
+                            separamos em arquivos de configuração. Dentro da
+                            nossa pasta server criamos uma pasta chamada config,
+                            está pasta será responsável por ter a configuração
+                            do servidor, banco de dados e de rotas.
+                          </p>
+                          <p>
+                            Dentro desta pasta criamos um arquivo chamado
+                            server.js o mesmo representará a configuração e o
+                            que será necessário para o servidor.
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_04.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%;"
+                            />
+                          </p>
+                          <p>
+                            Em seguida, incluiremos em nosso arquivo index.js o
+                            comando:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_05.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            Dando sequência nas configurações, será necessário
+                            configurar as rotas e separar um novo arquivo.
+                            Dentro da pasta config, iremos criar um arquivo
+                            chamado routes.js, e é neste arquivo que definidos
+                            as rotas usadas na aplicação.
+                          </p>
+                          <p>
+                            No arquivo routes.js incluiremos os seguintes
+                            comandos:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_06.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            E atualizaremos o arquivo server.js para que
+                            possamos ter acesso aos comandos definidos no
+                            arquivo routes.js.
+                          </p>
+                          <p>
+                            Para toda e qualquer requisição recebida pela
+                            aplicação a mesma deverá configurar o arquivo de
+                            rotas conforme abaixo:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_07.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                          <p>
+                            Cada tipo de requisição na aplicação pode ser
+                            apontado em rotas diferentes, desta maneira podemos
+                            configurar o arquivo de rota da seguinte forma:
+                          </p>
+                          <p>
+                            Quando for na raiz apontamos para um arquivo:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_08.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 40%;"
+                            />
+                          </p>
+                          <p>
+                            Quando for a exemplo uma requisição de produtos
+                            apontamentos a requisição para routesProcucts:
+                          </p>
+                          <p>
+                            <img
+                              src="img/organizar_codigo_09.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 40%;"
+                            />
+                          </p>
+
+                          <footer class="blockquote-footer">
+                            <a
+                              href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview"
+                              >MDN web docs</a
+                            >
+                            <cite title="Source Title"
+                              >Uma Introdução ao Nodemon</cite
+                            >
+                          </footer>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!---->
+
+
+
+                  
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                        MONGOOSE E CLUSTER DO MONGODB
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="collapse"
+                      aria-labelledby="headingTwo"
+                      data-parent="#accordionExample"
+                    >
+                    <div class="card-body">
+                      <div class="post-body">
+                        <h4>MONGODB</h4>
+                        <p>MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL;
+                        </p>
+                        <h5>Como criar cluster utilizando MongoDB</h5>
+    
+                        <p>
+                          O primeiro passo é criar sua conta no MongoDB.<br>
+                          Para acessar o site <a href="https://www.mongodb.com/"> clique aqui!</a><br>
+                          Basta preencher todas as informações solicitadas que sua conta será criada.</p>
+                          <p><img
+                            src="img/mongoose/pngph-5.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                          </p>
+    
+                          <p>Já com a conta criada, é hora de escolher o seu cluster (que vai depender do tipo de projeto que está criando).
+                          </p>
+    
+                        </p>
+                        <h4>Mongoose</h4>
+                        <p>
+                          Com o cluster criado é necessário termos instalado no nosso projeto a extensão do mongoose. Para sua instalação, basta digitar o comando abaixo no console escolhido. 
+                          <img
+                            src="img/mongoose/Dijan1.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                        </p>
+                        <p>
+                          Após a extensão instalada, iremos criar um arquivo que será responsável por criar a conexão com o banco, exportar essa conexão e monitorá-la. Chamaremos este arquivo de ‘database.js’ e criaremos ele dentro da pasta ‘config’ no nosso projeto.
+                          <img
+                            src="img/mongoose/Dijan2.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                        </p>
+                        <p>
+                          No nosso arquivo inicial, adicionaremos uma linha que será responsável por chamar o arquivo que acabamos de criar e assim conectar com o banco de dados todas as vezes que iniciarmos a aplicação.
+                          <img
+                            src="img/mongoose/Dijan3.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                        </p>
+                        <p>
+                          No arquivo database.js, vamos ter que importar o mongoose para a página, afinal, é nela que iremos nos conectar ao banco de dados. Para importa-lo, na primeira linha usaremos o seguinte comando:
+                          <img
+                            src="img/mongoose/Dijan4.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                        </p>
+                        <p>
+                          Após importado o moongose, vamos ter que conectar ao nosso banco de dados, através de uma linha de conexão que você consegue no MongoDB Compass (explicado mais para frente).
+                          <img
+                            src="img/mongoose/Dijan5.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>
+                          Como dito anteriormente, utilizaremos essa página mongoose.js para monitorar nossa conexão com o banco de dados. Conseguimos monitorar os seguintes casos:
+                          <div class="col-md-12">
+                            <p>
+                              •	Quando o estado da conexão for “connected” significa que conectamos com sucesso, e exibiremos uma mensagem para o console:
+                            
+                              <img
+                                src="img/mongoose/Dijan6.png"
+                                alt="..."
+                                class="rounded mx-auto d-block"
+                                style="width: 50%;"
+                              />
+                            </p>
+                            <p>
+                              • Quando o estado da conexão for “disconnected” significa que estamos desconectando do banco de dados, exibiremos uma mensagem para o console:
+                            
+                              <img
+                                src="img/mongoose/Dijan7.png"
+                                alt="..."
+                                class="rounded mx-auto d-block"
+                                style="width: 50%;"
+                              />
+                            </p>
+                            <p>
+                              •	Quando o estado da conexão for “error” significa que estourou algum erro na conexão com o banco de dados, exibiremos uma mensagem para o console, lembrando que nesse caso recebemos a exceção por parâmetro da função, então conseguimos mostrar isso na mensagem também:
+                            
+                              <img
+                                src="img/mongoose/Dijan8.png"
+                                alt="..."
+                                class="rounded mx-auto d-block"
+                                style="width: 50%;"
+                              />
+                            </p>
+                          </div>
+                        </p>
+                        <p>
+                          Após essas configurações realizadas, exportaremos o banco de dados para conseguirmos utilizá-lo em outras páginas da aplicação. Para isso, é necessário adicionar a seguinte linha de código dentro do database.js:
+                          <img
+                            src="img/mongoose/Dijan9.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 20%;"
+                          />
+                        </p>
+                        <!-- Bomba -->
+                        <h4>Fazendo a conexão com o MongoDB Cloud</h4>
+    
+                        </p>
+                        <p>
+                          Após ter feito o cadastro no MongoDB e Cluster ter sido criada clicamos no "Connect" para iniciarmos a conexão.
+                          <img
+                            src="img/mongoose/Bomba1.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 30%;"
+                          />
+                        </p>
+                        <p>
+                          Irão aparecer 3 opções, a primeira serve para que apenas pessoas de uma região do mundo consigam mexer, trabalhar, editar, etc. Selecionamos a primeira opção “Add your Current IP Address” e ele vai puxar automaticamente o seu IP.
+                          <br><br>
+                          <img
+                            src="img/mongoose/Bomba2.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 55%;"
+                          />
+                        </p>
+                        <p>
+                          No segundo passo iremos criar um nome e uma senha para o banco de dados. Com o nome e a senha clicamos em “Create Database User”. 
+                          <br><br>
+                          <img
+                            src="img/mongoose/Bomba3.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 55%;"
+                          />
+                        </p>
+                        <p>
+                          Com o IP selecionado e o banco de dados criado selecionamos a opção “Choose a connection method” selecionamos o “Connect your aplication”.
+                          <img
+                            src="img/mongoose/Bomba4.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>
+                          Selecionamos a versão e a aplicação que está sendo utilizada.
+                          <br><br>
+                          <img
+                            src="img/mongoose/Bomba5.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>
+                          (Opcional)
+                          O MongoDB Compass é utilizado também para verificarmos o que está acontecendo na aplicação sem precisar usar o terminal. Para baixá-lo acessamos esse link https://www.mongodb.com/try/download/compass. Tanto faz qual você irá querer utilizar, ambos possuem a mesma função.
+                          Após ter baixado o MongoDB Compass e abri-lo colocamos o link da imagem acima.
+                          <br><br>
+                          <img
+                            src="img/mongoose/Bomba6.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>
+                          Após colocarmos a URL devemos substituir onde está escrito <"password"> pela senha que foi criada quando estávamos criando o banco de dados, não a senha de cadastro utilizada 
+                          para acessar o MongoDB. E também substituir <"dbname"> pelo nome criado na criação do banco. Após ter substituído clicamos em “Connect”.
+                          Com a conexão feita voltamos ao Visual Studio Code e colamos a URL de conexão na variável que está fazendo a conexão. Lembrando que devemos substituir o <"password"> e <"dbname">.
+                          <br><br>
+                            
+                          <img
+                            src="img/mongoose/Bomba7.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 100%;"
+                          />
+                        </p>
+                        <!-- Pedro -->
+                        <h4>Registrar entradas/saídas no BD (Criação de Schemas)</h4>
+                        <p> Criaremos alguns modelos que serviram como as “tabelas” do banco de dados, para isso vamos utilizar de exemplo um modelo chamado: “CreditSchema.js”</p>
+                        <p> Antes de tudo é necessário “chamar” o mongoose, para isso criamos uma variável chamado mongoose.
+                          <img
+                            src="img/mongoose/pngph-1.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>E então criaremos outra variável com dois atributos, uma para ser o nome e a outra para ser o valor.
+                          <img
+                            src="img/mongoose/pngph-2.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <p>É nessa hora que é definido o tipo de dado para o atributo (String, double, int), se o campo é required ou não para o BD, e uma mensagem se for required.</p>
+    
+                        <p>Detalhe que no segundo atributo é possível criar um min e/ou max para tal atributo:
+                          <img
+                            src="img/mongoose/pngph-3.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+    
+                        <p>Após a criação da primeira model, iremos criar também o modelo para Débito chamado: “DebitSchema.js”
+                          <img
+                            src="img/mongoose/pngph-4.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+    
+                        <p>A estrutura é basicamente a mesma, a diferença é que criamos um atributo chamado status (string) em que podemos definir como uppercase ou lowercase e criamos um enum para definir quais as strings aceitáveis para tal campo.
+                          <img
+                            src="img/mongoose/pngph-4.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 50%;"
+                          />
+                        </p>
+                        <!-- Lukas -->
+                        <h4>BillingCycle Schema</h4>
+                        <p>
+                          Um pouco diferente dos outros Schemas, o objeto BillingCycles servirá para agrupar as informações de um ciclo de pagamento. Possui ao invés dos demais, apenas os campos informativos deste ciclo de pagamento. No caso data e oSs atributos de créditos e débitos.
+                          
+                          <h6> Classe:</h6>
+                          <img
+                            src="img/mongoose/billingcycle.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 70%;"
+                          />
+                        </p>
+                      <p>
+                        Para fazer a conversão das informações que chegam em uma requisição, utilizaremos a biblioteca body-parser para converter o json com as informações para gravar no banco.
+                      
+                      <h6> Como configurar:</h6>
+                      <img
+                            src="img/mongoose/bodyparser.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 70%;"
+                          />
+                        </p>
+                      <p> Para coletar a requisição e mandar gravar no banco, precisamos do billingCyclesSchema, pois ele foi feito para realizar as operações de CRUD.
+                      <h6> Setamos ele como require: </h6>
+                      <img
+                            src="img/mongoose/coletarrequisicao.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 70%;"
+                          />
+                      </p>
+                      <p> Para gravar ao banco então, enviamos o body (json) pelo billinCycles nossa “tabela”.<p/>
+                      <img
+                            src="img/mongoose/passandoreqbody.png"
+                            alt="..."
+                            class="rounded mx-auto d-block"
+                            style="width: 70%;"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <h6 class="text-white">
+                Blog de Desenvolvimento Web II - Node.js, Angular e MongoDB
+              </h6>
+            </div>
+            <div class="contact-details">
+              <p>Universidade Positivo</p>
+              <p>Professor: Diogo Steine Deconto</p>
+              <p>
+                Email:
+                <a href="mailto:diogo.deconto@up.edu.br"
+                  >diogo.deconto@up.edu.br</a
+                >
+              </p>
+              <ul class="social-menu">
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/diogodeconto"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.linkedin.com/in/diogo-steinke-deconto-2b974a93/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2017. All rights reserved. Your great site.</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <p>
+                Template By
+                <a
+                  href="https://bootstrapious.com/p/bootstrap-carousel"
+                  class="text-white"
+                  >Bootstrapious</a
+                >
+                <!-- Please do not remove the backlink to Bootstrap Temple unless you purchase an attribution-free license @ Bootstrap Temple or support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)                         -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/popper.js/umd/popper.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../js/front.js"></script>
+  </body>
+</html>
