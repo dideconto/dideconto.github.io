@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Aula IV - 27/08/2020</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom icon font-->
+    <link rel="stylesheet" href="../../css/fontastic.css" />
+    <!-- Google fonts - Open Sans-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+    />
+    <!-- Fancybox-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.css"
+    />
+    <!-- theme stylesheet-->
+    <link
+      rel="stylesheet"
+      href="../../css/style.default.css"
+      id="theme-stylesheet"
+    />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../../css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <header class="header">
+      <!-- Main Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <div
+            class="navbar-header d-flex align-items-center justify-content-between"
+          >
+            <!-- Navbar Brand --><a
+              href="../../../index.html"
+              class="navbar-brand"
+              >Blog de Desenvolvimento Web II</a
+            >
+            <!-- Toggle Button-->
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarcollapse"
+              aria-controls="navbarcollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler"
+            >
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+          <!-- Navbar Menu -->
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../../../instructions.html" class="nav-link"
+                  >Instruções</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../../../contacts.html" class="nav-link">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a href="../../../about.html" class="nav-link">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <!-- Latest Posts -->
+        <main class="post blog-post col-lg-12">
+          <div class="container">
+            <div class="post-single">
+              <div class="post-thumbnail" style="text-align: center;">
+                <iframe
+                  height="315"
+                  width="560"
+                  src="https://www.youtube.com/embed/MSlQSZVB4nY"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div style="margin-top: 30px;" class="post-details">
+                <h1>
+                  Aula IV - 27/08/2020
+                </h1>
+                <div class="post-footer d-flex align-items-center flex-column flex-sm-row" >
+
+                  <!--Eduardo Neres-->
+                  <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="../../img-authors/eduardo_neres.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Eduardo Neres</span></div></a>
+                    
+                    <!--Gregori Santos-->
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="../../img-authors/gregori_santos.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Gregori Santos</span></div></a>
+
+                    <!--Guilherme Silva-->
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="../../img-authors/guilherme_ferreira.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Guilherme Silva</span></div></a>
+
+                    <!--Gustavo Carvalho-->
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="../../img-authors/gustavo_carvalho.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Gustavo Carvalho</span></div></a>
+                    
+                    <!--Gustavo Kruger-->
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="../../img-authors/gustavo_kruger.jpeg" alt="..." class="img-fluid">
+                      </div>
+                      <div class="title"><span>Gustavo Kruger</span></div></a>
+                </div>
+                
+                <div class="post-footer d-flex align-items-center flex-column flex-sm-row" >
+                    <!--Lorenzo Soares-->
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="../../img-authors/lorenzo_soares.jpeg" alt="..." class="img-fluid">
+                      </div>
+                      <div class="title"><span>Lorenzo Soares</span></div></a>
+    
+                      <!--Jocelim Junior-->
+                      <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="../../img-authors/jocelim_junior.JPG" alt="..." class="img-fluid">
+                      </div>
+                      <div class="title"><span>Jocelim Junior</span></div></a>
+    
+                      <!--Jonatan Pereira-->
+                      <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="../../img-authors/jonatan_pereira.jpeg" alt="..." class="img-fluid">
+                      </div>
+                      <div class="title"><span> Jonatan Pereira </span></div></a>
+                      <a href="#" class="author d-flex align-items-center flex-wrap">
+    
+                        <!--Rafael Messias-->
+                        <a href="#" class="author d-flex align-items-center flex-wrap">
+                        <div class="avatar">
+                          <img src="../../img-authors/rafael_messias.jpeg" alt="..." class="img-fluid">
+                        </div>
+                        <div class="title"><span>Rafael Messias</span></div></a>
+
+
+                  <div class="d-flex align-items-center flex-wrap">
+                    <div class="date">
+                      <i class="icon-clock"></i> Postado em: 27/08/2020
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  style="margin-top: 30px;"
+                  class="accordion"
+                  id="accordionExample"
+                >
+
+
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#col1"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          Arquivos de Rotas
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="col1"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+                          <h4>O QUE É O ARQUIVO DE ROTAS?</h4>
+
+                          <p>
+                            É o arquivo em que são configuradas as rotas para os métodos de requisição http. 
+                            <br>
+                            Em aplicações mais complexas o ideal é criar um routes para cada tipo de informação. 
+                            <br>
+                            Como estamos usando apenas o BillingCycle​ no momento todas as requisições passarão​ pelo <b>routes.js</b>​.
+                          </p>
+
+                          <h4>CONFIGURAÇÃO</h4>
+                          <p>
+                            Dentro do <b>server.js</b>​ é necessário declarar a constante ​routes​ e declarar o <b>app.use</b>.​
+                            <br>
+                            O <b>‘/’</b> na declaração significa que toda chamada irá passar pelo routes.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/routes1.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Dentro do <b>routes.js</b> é necessário chamar o <b>express</b> e dentro dele há um função <b>Router()</b>​.
+                            <br>
+                            É também necessário chamar o <b>Controller</b> pois é nele que estarão as funções.
+                          </p>
+                          <p>
+                            <img
+                              src="img/routes2.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Após essas declarações vêm as chamadas:
+                          </p>
+                          <p>
+                            <img
+                              src="img/routes3.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Na declaração dizemos:
+                            <ul class="ml-5">
+                              <li>
+                                O método da requisição (post, get, put, delete, etc.);
+                              </li>
+                              <li>
+                                Os parâmetros via URL, informado com dois pontos e o nome do parâmetro (“/:id”); 
+                              </li>
+                              <li>
+                                A função que será executada (que estará no controller)​.
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            <img
+                              src="img/routes4.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Na função é importante não colocar <b>()</b>, pois isso garante que a função seja chamada​ apenas quando necessário. 
+                          </p>
+                          <p>
+                            <img
+                              src="img/routes5.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Ao final declara-se o <b>module.exports</b>
+                            <br>
+                            Um exemplo do arquivo finalizado seria então: 
+                          </p>
+                          <p>
+                            <img
+                              src="img/routes6.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#col2"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                         O Módulo body-parser
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="col2"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+                          <h4>BODY-PARSER</h4>
+                          
+                          <p>
+                            O body-parser é um módulo capaz de converter o body da requisição para vários formatos. Um desses formatos é json.
+                            <br>
+                            Para manipular as solicitações HTTP POST em <b>Express.js</b> é necessário instalar o módulo de middleware chamado body-parser.
+                            <br>
+                            Body-parser extrai a parte do corpo inteiro de um fluxo de solicitação de entrada e o expõe em req.body como algo mais fácil de se conectar poupando tempo no desenvolvimento da sua aplicação. 
+                            <br>
+                            O módulo body-parser analisa os dados codificados JSON, buffer, string e URL enviados usando HTTP POST.
+                            <br>
+                            Abaixo quatro formas de uso: 
+                            <br>
+
+                            <ul class="ml-5">
+                              <li>
+                                bodyParser.raw() : Na verdade, não analisa o corpo, mas apenas expõe o conteúdo em buffer de antes em um Buffer em req.body.
+                              </li>
+                              <li>
+                                bodyParser.text() : Lê o buffer como texto simples e expõe a string resultante no req.body.
+                              </li>
+                              <li>
+                                bodyParser.urlencoded() : Analisa o texto como dados codificados de URL (que é como os navegadores tendem a enviar dados de formulário de formulários regulares definidos para POST) e expõe o objeto resultante (contendo as chaves e valores) em req.body. Para comparação; em PHP tudo isso é feito automaticamente e exposto em $_POST.
+                              </li>
+                              <li>  
+                                bodyParser.json () : Analisa o texto como JSON e expõe o objeto resultante em req.body.
+                              </li>
+                            </ul>
+
+                          </p>
+                          <p>
+                            Somente depois de configurar o req.body para o conteúdo desejável, ele chamará o próximo middleware na pilha, que poderá acessar os dados da solicitação sem ter que pensar em como descompactá-lo e analisá-lo.
+                            <br>
+                            Abaixo as configurações de conversão utilizadas no nosso código até agora:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/bodyparser1.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#col3"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                         Controller
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="col3"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+                          <h4>CRIÇÃO DO CONTROLLER</h4>
+                          
+                          <p>
+                            Após termos configurado nosso arquivo de rotas não devemos utilizar os metodos dos schemas diretamente nas rotas, mas sim criar um arquivo controller para cada schema para abstrair suas respectivas regras de negócio.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller1.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <h4>CRIANDO O CONTROLLER DO BILLINGCYCLE</h4>
+
+                          <p>
+                            Primeiramente, criaremos uma pasta nomeada "controllers" para armazenar os nossos arquivos.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller2.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%;"
+                            />
+                          </p>
+
+                          <p>
+                            Tendo criado o arquivo BillingCycleController, iremos montar um classe que cada metodo manterá uma função de criar, consultar ou alterar dados no nosso schema de ciclo de pagamentos.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller3.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Dentro do método STORE chamaremos a função <b>create()</b> para criar registros no schema com os parâmetros informados através do body da requisição, 
+                            e assim que o registro for criado, retornaremos o mesmo.
+                            <br>
+                            O status que aparece na imagem é o código de status de resposta http em que cada código tem um significado. Neste caso, 201 significa que “a requisição foi bem 
+                            sucedida e que um novo recurso foi criado”.
+                            <br>
+                            Para saber mais dos códigos de status acesse https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller4.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Dentro do método GET chamaremos a função <b>find()</b> de consultar registros do schema.
+                            Como não foram especificados parâmetros, ele irá listar todos os dados no schema, retornando o código 200 que é de sucesso.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller5.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Feito isso, voltaremos ao arquivo de rotas e chamaremos os metodos do controller dentro de suas respectivas requisições, fazendo com que o arquivo fique desta forma:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/criacaocontroller6.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#col4"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                        Testando API com JSON
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="col4"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+
+                          <p>
+                            Após criarmos nossa API rest, definimos em uma request HTTP via POST alguns parâmetros como no exemplo abaixo:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/apicomjson1.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%;"
+                            />
+                          </p>
+
+                          <p>
+                            Obs: Utilizamos uma extensão do Visual Studio Code chamada REST Client, permitindo que as requisições fossem realizadas pelo próprio editor de texto.
+                            <br>
+                            Por fins de teste acrescentamos outro atributo na classe modelo do BillingCycleSchema.js chamado createdAT, do tipo data no qual vai ter como parâmetro default para que não seja gravado com o fuso horário, assim quando você precisar mostrar esse dado para um outro pais basta acrescentar o fuso.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/apicomjson2.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Após enviar a request, podemos verificar que no banco de dados (Mongo DB) será criado em nossa coleção um novo ciclo de pagamento:
+                            <br>
+                            Porém ainda não irá mostrar na própria tela do Visual Code, por que o comando create é executado de forma assíncrona por que depende de outros fatores para que a criação seja concluída e só então retorna-la. 
+                            <br>
+                            O que podemos ver quando colocamos o mouse em cima da função e encontramos a palavra promise, isso define que tal método será assincrono. 
+                          </p>
+
+                          <p>
+                            Para conseguir visualizar o resultado na tela do VS, devemos colocar o operador await antes do método e definir a função como assíncrona, como no exemplo à seguir:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/apicomjson3.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                          <p>
+                            Após a alteração se fizemos uma nova requisição teremos o seguinte resultado na tela:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/apicomjson4.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%;"
+                            />
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#col5"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                        Testes com Postman
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="col5"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+
+                          <p>
+                            O Postman é uma ferramenta de teste de API´s que utilizam o padrão REST. 
+                            <br>
+                            Ele possui ambiente para a documentação, execução de testes de APIs e requisições em geral. 
+                            <br>
+                            Ao utilizá-lo, você passará a trabalhar com APIs de modo mais eficiente, construindo solicitações rapidamente e, ainda, poderá guardá-las para uso posterior, além de conseguir analisar as respostas enviadas pela API.
+                          </p>
+                          
+                          <p>
+                            Um bom motivo para usar essa ferramenta é que, por meio dela, é possível reduzir drasticamente o tempo necessário para testar e desenvolver APIs. 
+                            <br>
+                            O Postman é gratuito e com um amplo suporte para  APIs e Schemas.
+                          </p>
+
+                          <p>
+                            Abaixo temos um exemplo de teste de formulário:
+                            <br>
+                            Para realizar o teste devemos selecionar “POST”, inserir a “URL”, selecionar “Body” > “form url encoded” > Preencher as “KEYs” e “Values” e clicar em “Send”.
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/Postman1.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 80%;"
+                            />
+                          </p>
+
+                          <p>
+                            Selecionar “JSON” e visualizar a resposta:
+                          </p>
+
+                          <p>
+                            <img
+                              src="img/Postman2.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 80%;"
+                            />
+                          </p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <h6 class="text-white">
+                Blog de Desenvolvimento Web II - Node.js, Angular e MongoDB
+              </h6>
+            </div>
+            <div class="contact-details">
+              <p>Universidade Positivo</p>
+              <p>Professor: Diogo Steine Deconto</p>
+              <p>
+                Email:
+                <a href="mailto:diogo.deconto@up.edu.br"
+                  >diogo.deconto@up.edu.br</a
+                >
+              </p>
+              <ul class="social-menu">
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/diogodeconto"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.linkedin.com/in/diogo-steinke-deconto-2b974a93/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2017. All rights reserved. Your great site.</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <p>
+                Template By
+                <a
+                  href="https://bootstrapious.com/p/bootstrap-carousel"
+                  class="text-white"
+                  >Bootstrapious</a
+                >
+                <!-- Please do not remove the backlink to Bootstrap Temple unless you purchase an attribution-free license @ Bootstrap Temple or support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)                         -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/popper.js/umd/popper.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../js/front.js"></script>
+  </body>
+</html>
