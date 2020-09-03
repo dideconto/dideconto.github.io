@@ -138,14 +138,14 @@
                     <!--Gustavo Carvalho-->
                     <a href="#" class="author d-flex align-items-center flex-wrap">
                     <div class="avatar">
-                      <img src="../../img-authors/defaultUser.png" alt="..." class="img-fluid">
+                      <img src="../../img-authors/gustavo_carvalho.jpeg" alt="..." class="img-fluid">
                     </div>
                     <div class="title"><span>Gustavo Carvalho</span></div></a>
                     
                     <!--Gustavo Kruger-->
                     <a href="#" class="author d-flex align-items-center flex-wrap">
                       <div class="avatar">
-                        <img src="../../img-authors/defaultUser.png" alt="..." class="img-fluid">
+                        <img src="../../img-authors/gustavo_kruger.jpeg" alt="..." class="img-fluid">
                       </div>
                       <div class="title"><span>Gustavo Kruger</span></div></a>
                 </div>
@@ -160,14 +160,14 @@
     
                       <!--Jocelim Junior-->
                       <div class="avatar">
-                        <img src="../../img-authors/defaultUser.png" alt="..." class="img-fluid">
+                        <img src="../../img-authors/jocelim_junior.JPG" alt="..." class="img-fluid">
                       </div>
                       <div class="title"><span>Jocelim Junior</span></div></a>
     
                       <!--Jonatan Pereira-->
                       <a href="#" class="author d-flex align-items-center flex-wrap">
                       <div class="avatar">
-                        <img src="../../img-authors/defaultUser.png" alt="..." class="img-fluid">
+                        <img src="../../img-authors/jonatan_pereira.jpeg" alt="..." class="img-fluid">
                       </div>
                       <div class="title"><span> Jonatan Pereira </span></div></a>
                       <a href="#" class="author d-flex align-items-center flex-wrap">
@@ -465,7 +465,13 @@
                           </p>
 
                           <p>
-                            Dentro do método STORE chamaremos a função de criar registros no schema com os dados passados através do body da requisição, e assim que o registro for criado, retornaremos o mesmo.
+                            Dentro do método STORE chamaremos a função <b>create()</b> para criar registros no schema com os parâmetros informados através do body da requisição, 
+                            e assim que o registro for criado, retornaremos o mesmo.
+                            <br>
+                            O status que aparece na imagem é o código de status de resposta http em que cada código tem um significado. Neste caso, 201 significa que “a requisição foi bem 
+                            sucedida e que um novo recurso foi criado”.
+                            <br>
+                            Para saber mais dos códigos de status acesse https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
                           </p>
 
                           <p>
@@ -478,7 +484,8 @@
                           </p>
 
                           <p>
-                            Dentro do método GET chamaremos a função de consultar registros do schema.
+                            Dentro do método GET chamaremos a função <b>find()</b> de consultar registros do schema.
+                            Como não foram especificados parâmetros, ele irá listar todos os dados no schema, retornando o código 200 que é de sucesso.
                           </p>
 
                           <p>
@@ -501,12 +508,6 @@
                               class="rounded mx-auto d-block"
                               style="width: 50%;"
                             />
-                          </p>
-
-                          <p>
-                            Porém, percebe-se que ainda faltam as rotas de alteração e remoção, assim como seus metodos no controller. 
-                            <br>
-                            Sinta-se livre para adicioná-los.
                           </p>
 
                         </div>
