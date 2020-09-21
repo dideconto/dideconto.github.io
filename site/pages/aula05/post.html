@@ -104,12 +104,12 @@
                                     </div>
                                     <div class="title"><span> Douglas Gorges </span></div>
                                 </a>
-                                <!-- Gabriel Rulka Tardosk -->
+                                <!-- Gabriel Rulka Tardoski -->
                                 <a href="#" class="author d-flex align-items-center flex-wrap">
                                     <div class="avatar">
-                                        <img src="../../img-authors/defaultUser.png" alt="..." class="img-fluid" />
+                                        <img src="../../img-authors/gabriel_rt.jpg" alt="..." class="img-fluid" />
                                     </div>
-                                    <div class="title"><span>Gabriel R. Tardosk</span></div>
+                                    <div class="title"><span>Gabriel R. Tardoski</span></div>
                                 </a>
                                 <!-- Igor Menon Mattos Silva -->
                                 <a href="#" class="author d-flex align-items-center flex-wrap">
@@ -143,7 +143,7 @@
                                 </a>
                                 <div class="d-flex align-items-center flex-wrap">
                                     <div class="date">
-                                        <i class="icon-clock"></i> Postado em: 00/09/2020
+                                        <i class="icon-clock"></i> Postado em: 21/09/2020
                                     </div>
                                 </div>
                             </div>
@@ -163,459 +163,119 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="post-body">
-                                            <h4>O QUE É O NODEMON?</h4>
-
-                                            <p>
-                                                Nodemon é um utilitário que serve para auxiliar no
-                                                desenvolvimento de uma aplicação. Ele monitora
-                                                mudanças no código-fonte. Sua principal vantagem é
-                                                automaticamente reiniciar o servidor.
+                                            <h4>ANGULAR</h4>
+                                            <br>
+                                                É uma plataforma criada para o desenvolvimento de single page application 
+                                                que dinamicamente reescreve a página a reescrevendo com novos dados 
+                                                emitidos do servidor. Qualquer aplicação angular necessita de um modulo e 
+                                                um componente no mínimo, e a maioria das criações são componentes que se 
+                                                comportam de jeitos diferentes na aplicação. 
+                                                Nesta aula veremos: </main>br> 
+                                                -Controller recebendo objetos de ciclos de pagamento.<br> 
+                                                -Método que busca todos os ciclos.<br> 
+                                                -Busca pelo ID.<br>                                                 
                                             </p>
 
-                                            <h4>COMO INSTALAR O NODEMON NO MEU PROJETO?</h4>
+                                            <h4>PRÉ REQUISITOS</h4>
                                             <p>
-                                                No terminal do VS, digite o comando “npm install
-                                                nodemon –save-dev” (o “—save-dev” é para no
-                                                package.json ele for instalado como dependência de
-                                                desenvolvimento e não uma global, como o express).
-                                                Ou digite “npm install -g nodemon” para instalar o
-                                                instalar como global;
+                                                Por até então termos trabalhado com um projeto de configuração mínima, é preciso 
+                                                ir até angular.json   e definir ‘inlineTemplate’ e ‘InlineStyle’ para falso, para que estes
+                                                 não fiquem no mesmo arquivo, e assim os três arquivos do componente sejam gerados.
                                             </p>
                                             <p>
-                                                <img src="img/como_baixar_nodemon.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-
-                                            <p>
-                                                Ou para instalar o nodemon como global
-                                            </p>
-                                            <p>
-                                                <img src="img/como_baixar_nodemon_global.png" alt="..."
+                                                <img src="img/pre.jpg" alt="..."
                                                     class="rounded mx-auto d-block" style="width: 50%;" />
                                             </p>
 
-                                            <h5>RODAR UMA APLICAÇÃO COM O NODEMON</h5>
                                             <p>
-                                                No terminal do VS, digite:
-                                            </p>
+                                                FUNCIONALIDADE DO ANGULAR
                                             <p>
-                                                <img src="img/rodando_aplicacao.png" alt="..."
+                                                <img src="img/img.jpg" alt="..."
                                                     class="rounded mx-auto d-block" style="width: 50%;" />
                                             </p>
                                             <p>
-                                                <strong>OBSERVAÇÃO: </strong>
-                                                Caso tenha dado erro ao rodar o nodemon, abra o
-                                                arquivo package.json e crie a propriedade destacada
-                                                na imagem abaixo para rodar o nodemon diretamente
-                                                pelo npm;
+                                            <strong>Por onde começar a aplicação</strong>
+                                            <img src="img/comeco.png" alt="..."
+                                            class="rounded mx-auto d-block" style="width: 50%;" />
                                             </p>
-                                            <p>
-                                                <img src="img/package_json.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Para rodar a aplicação nodemon, digite no terminal
-                                                “npm run dev”
-                                            </p>
-                                            <p>
-                                                <img src="img/como_rodar_aplicacao.png" alt="..."
+                                            <h5>STYLES</h5>
+                                            <br>
+                                            Permite com que sejam incluídos e definidos estilos que serão aplicados em toda
+                                             o seu projeto, de forma global. É importante ressaltar como os arquivos de estilo 
+                                             CSS dentro de cada componente só causam alterações locais nestes.
+                                             </p>
+                                            <br>
+                                                <h4>IMPLEMENTAÇÃO FRONT-END </h4>
+                                                Aplicação cliente - aplicação gerada com a utilização do CLI do angular por linha de 
+                                                comando para criar a aplicação. <br>
+                                                Antigamente gerava-se tudo na mão e hoje a partir do momento de usar o comando ng serve 
+                                                ele já compila e já abre a aplicação no browser.<br>
+                                                Comparação: fazer coisas por linha de comando, clicando e selecionando linhas de comando, 
+                                                com ideias parecidas porem com interface por linha de comando e interface gráfica.<br>
+                                                É possível referenciar um estilo no mesmo modelo de uma classe. Exemplo:
+                                                <p>
+                                                    <img src="img/class.png" alt="..."
                                                     class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-
-                                            <h5>COMO ORGANIZAR MELHOR SUA APLICAÇÃO?</h5>
-                                            <p>
-                                                Para melhor aproveitamento do projeto, é necessário
-                                                que haja um boa organização do código. Para o
-                                                projeto é necessário criar um repositório único para
-                                                que ele realize o commit no GitHub.
-                                            </p>
-                                            <p>
-                                                Para dar início, é necessário criar uma pasta com o
-                                                nome “server” que é a pasta do servidor para
-                                                realização do desenvolvimento, em seguida devemos
-                                                adicionar a ela nosso arquivo “index.js”, o mesmo
-                                                será responsável por subir nosso servidor.
-                                            </p>
-
-                                            <p>
-                                                <img src="img/organizar_codigo_01.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Ao realizar a transferência do arquivo index.js para
-                                                a pasta server, nosso sistema acusa um erro por não
-                                                encontrar no local, para realizar o ajuste deve-se
-                                                ir no arquivo package.jason e inserir:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_02.png" alt="..."
+                                                </p>
+                                                O estilo será atribuído a apenas este componente a não ser que faça isso diretamente no styles.
+                                                <strong>Como fazer o botão de redirecionamento para outra página:</strong> 
+                                                <p>
+                                                    <img src="img/redirect.png" alt="..."
                                                     class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
+                                                </p>
+                                                <br>
+                                                <h4>INICIAR TELA DE CADASTRO </h4>
                                             <p>
-                                                <img src="img/organizar_codigo_03.png" alt="..."
+                                                TypeScript é a linguagem oficial Angular que surgiu como um superset do JavaScript, 
+                                                adicionando a este funcionalidades que nativamente não estão disponíveis ou requerem 
+                                                grande esforço para utilização, como tipagem de dados e Orientação a Objetos.
+                                            </p>
+                                            <br>
+                                            <h5>CRIANDO O MÓDULO PADRÃO</h5>
+                                       <p>
+                                                Use o ng generate coponent caminho desejado nome desejado para criar um novo componente, 
+                                                contexto os três arquivos (HTML, CSS e Typescript) como o esperado.
+                                                Certos declarations e imports serão feitos já de forma automática.<br>
+                                                Caso queria já rodar a aplicação, também use o ng serve –open.<br>
+                                                Note que o -- É parâmetro que através do open indica para abrir o navegador já no local.<br>
+                                            <h4>ENTENDENDO A CODIFICAÇÃO</h4>
+                                            <p>
+                                                @NgModule & @Module: É um padrão de decorator amplamente utilizado para 
+                                                anexar qualquer módulo dentro da aplicação.<br>
+                                                Declarations: Aponta todos os componentes que farão parte de tal módulo.<br>
+                                                Imports: Serve para importar módulos externos.<br>
+                                                Boostrap: Diz que componentes devem ser iniciados.<br>
+                                                Qualquer componente que crie vira uma tag dentro do Typescript, por meio do selector.<br>
+                                                A aplicação começa com os arquivos favicon.ico, *index.html*, *main.ts*, polyfills.ts e *style.css*, 
+                                                com este último sendo utilizado para colocar e definir estilos a serem aplicados sobre todo o programa.<br>
+                                                Import's funcionam igual aos do node, mas com uma sintaxe diferente.<br>
+                                                app-root -> primeiro componente (app.component.ts)<br>
+                                                A aplicação começa pelo arquivo main.ts, que possui uma verificação para ver se estamos em ambiente 
+                                                de produção sendo ela:
+                                                <p>
+                                                    <img src="img/if.png" alt="..."
                                                     class="rounded mx-auto d-block" style="width: 50%;" />
+                                                </p>
+                                                 A linha de código acima significa que caso não esteja em ambiente de produção devemos 
+                                                 inicializar o appModule o qual deve se encontra na pasta app.
                                             </p>
+                                            <h4>PÁGINA DE LISTAGEM</h4>
+                                            É preciso que se faça a adição de um novo terminal se totalizando 2:<br> 
+                                            -Um rodando a app angular<br> 
+                                            -Outro para criar e manipular informações como os compontes.<br> 
+                                            E então criação de um novo componente que deve ser gerado em views/cycles/nome<br>
                                             <p>
-                                                Para melhor visibilidade e aproveitamento da
-                                                aplicação, separamos os arquivos do index.js em
-                                                partes, ou seja separamos os que rodam a aplicação e
-                                                separamos em arquivos de configuração. Dentro da
-                                                nossa pasta server criamos uma pasta chamada config,
-                                                está pasta será responsável por ter a configuração
-                                                do servidor, banco de dados e de rotas.
-                                            </p>
-                                            <p>
-                                                Dentro desta pasta criamos um arquivo chamado
-                                                server.js o mesmo representará a configuração e o
-                                                que será necessário para o servidor.
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_04.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Em seguida, incluiremos em nosso arquivo index.js o
-                                                comando:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_05.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                Dando sequência nas configurações, será necessário
-                                                configurar as rotas e separar um novo arquivo.
-                                                Dentro da pasta config, iremos criar um arquivo
-                                                chamado routes.js, e é neste arquivo que definidos
-                                                as rotas usadas na aplicação.
-                                            </p>
-                                            <p>
-                                                No arquivo routes.js incluiremos os seguintes
-                                                comandos:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_06.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                E atualizaremos o arquivo server.js para que
-                                                possamos ter acesso aos comandos definidos no
-                                                arquivo routes.js.
-                                            </p>
-                                            <p>
-                                                Para toda e qualquer requisição recebida pela
-                                                aplicação a mesma deverá configurar o arquivo de
-                                                rotas conforme abaixo:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_07.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                Cada tipo de requisição na aplicação pode ser
-                                                apontado em rotas diferentes, desta maneira podemos
-                                                configurar o arquivo de rota da seguinte forma:
-                                            </p>
-                                            <p>
-                                                Quando for na raiz apontamos para um arquivo:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_08.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 40%;" />
-                                            </p>
-                                            <p>
-                                                Quando for a exemplo uma requisição de produtos
-                                                apontamentos a requisição para routesProcucts:
-                                            </p>
-                                            <p>
-                                                <img src="img/organizar_codigo_09.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 40%;" />
-                                            </p>
-
-                                            <footer class="blockquote-footer">
-                                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">MDN
-                                                    web docs</a>
-                                                <cite title="Source Title">Uma Introdução ao Nodemon</cite>
-                                            </footer>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                            EXEMPLO: ng generate component views/cycles/list-cycles
+                                            Vale ressaltar que ao se abrir um novo terminal deve-se entrar na pasta determinada via cd.
+                                            </p>     
+                                        </p>
                             <!---->
-
-
-
-
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                            --EDITAR--
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="post-body">
-                                            <h4>MONGODB</h4>
-                                            <p>MongoDB é um software de banco de dados orientado a documentos livre,
-                                                de código aberto e multiplataforma, escrito na linguagem C++.
-                                                Classificado como um programa de banco de dados NoSQL;
-                                            </p>
-                                            <h5>Como criar cluster utilizando MongoDB</h5>
-
-                                            <p>
-                                                O primeiro passo é criar sua conta no MongoDB.<br>
-                                                Para acessar o site <a href="https://www.mongodb.com/"> clique
-                                                    aqui!</a><br>
-                                                Basta preencher todas as informações solicitadas que sua conta será
-                                                criada.</p>
-                                            <p><img src="img/mongoose/pngph-5.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-
-                                            <p>Já com a conta criada, é hora de escolher o seu cluster (que vai
-                                                depender do tipo de projeto que está criando).
-                                            </p>
-
-                                            </p>
-                                            <h4>Mongoose</h4>
-                                            <p>
-                                                Com o cluster criado é necessário termos instalado no nosso projeto
-                                                a extensão do mongoose. Para sua instalação, basta digitar o comando
-                                                abaixo no console escolhido.
-                                                <img src="img/mongoose/Dijan1.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Após a extensão instalada, iremos criar um arquivo que será
-                                                responsável por criar a conexão com o banco, exportar essa conexão e
-                                                monitorá-la. Chamaremos este arquivo de ‘database.js’ e criaremos
-                                                ele dentro da pasta ‘config’ no nosso projeto.
-                                                <img src="img/mongoose/Dijan2.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                No nosso arquivo inicial, adicionaremos uma linha que será
-                                                responsável por chamar o arquivo que acabamos de criar e assim
-                                                conectar com o banco de dados todas as vezes que iniciarmos a
-                                                aplicação.
-                                                <img src="img/mongoose/Dijan3.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                No arquivo database.js, vamos ter que importar o mongoose para a
-                                                página, afinal, é nela que iremos nos conectar ao banco de dados.
-                                                Para importa-lo, na primeira linha usaremos o seguinte comando:
-                                                <img src="img/mongoose/Dijan4.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Após importado o moongose, vamos ter que conectar ao nosso banco de
-                                                dados, através de uma linha de conexão que você consegue no MongoDB
-                                                Compass (explicado mais para frente).
-                                                <img src="img/mongoose/Dijan5.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                Como dito anteriormente, utilizaremos essa página mongoose.js para
-                                                monitorar nossa conexão com o banco de dados. Conseguimos monitorar
-                                                os seguintes casos:
-                                            <div class="col-md-12">
-                                                <p>
-                                                    • Quando o estado da conexão for “connected” significa que
-                                                    conectamos com sucesso, e exibiremos uma mensagem para o
-                                                    console:
-
-                                                    <img src="img/mongoose/Dijan6.png" alt="..."
-                                                        class="rounded mx-auto d-block" style="width: 50%;" />
-                                                </p>
-                                                <p>
-                                                    • Quando o estado da conexão for “disconnected” significa que
-                                                    estamos desconectando do banco de dados, exibiremos uma mensagem
-                                                    para o console:
-
-                                                    <img src="img/mongoose/Dijan7.png" alt="..."
-                                                        class="rounded mx-auto d-block" style="width: 50%;" />
-                                                </p>
-                                                <p>
-                                                    • Quando o estado da conexão for “error” significa que estourou
-                                                    algum erro na conexão com o banco de dados, exibiremos uma
-                                                    mensagem para o console, lembrando que nesse caso recebemos a
-                                                    exceção por parâmetro da função, então conseguimos mostrar isso
-                                                    na mensagem também:
-
-                                                    <img src="img/mongoose/Dijan8.png" alt="..."
-                                                        class="rounded mx-auto d-block" style="width: 50%;" />
-                                                </p>
-                                            </div>
-                                            </p>
-                                            <p>
-                                                Após essas configurações realizadas, exportaremos o banco de dados
-                                                para conseguirmos utilizá-lo em outras páginas da aplicação. Para
-                                                isso, é necessário adicionar a seguinte linha de código dentro do
-                                                database.js:
-                                                <img src="img/mongoose/Dijan9.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 20%;" />
-                                            </p>
-                                            <!-- Bomba -->
-                                            <h4>Fazendo a conexão com o MongoDB Cloud</h4>
-
-                                            </p>
-                                            <p>
-                                                Após ter feito o cadastro no MongoDB e Cluster ter sido criada
-                                                clicamos no "Connect" para iniciarmos a conexão.
-                                                <img src="img/mongoose/Bomba1.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 30%;" />
-                                            </p>
-                                            <p>
-                                                Irão aparecer 3 opções, a primeira serve para que apenas pessoas de
-                                                uma região do mundo consigam mexer, trabalhar, editar, etc.
-                                                Selecionamos a primeira opção “Add your Current IP Address” e ele
-                                                vai puxar automaticamente o seu IP.
-                                                <br><br>
-                                                <img src="img/mongoose/Bomba2.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 55%;" />
-                                            </p>
-                                            <p>
-                                                No segundo passo iremos criar um nome e uma senha para o banco de
-                                                dados. Com o nome e a senha clicamos em “Create Database User”.
-                                                <br><br>
-                                                <img src="img/mongoose/Bomba3.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 55%;" />
-                                            </p>
-                                            <p>
-                                                Com o IP selecionado e o banco de dados criado selecionamos a opção
-                                                “Choose a connection method” selecionamos o “Connect your
-                                                aplication”.
-                                                <img src="img/mongoose/Bomba4.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                Selecionamos a versão e a aplicação que está sendo utilizada.
-                                                <br><br>
-                                                <img src="img/mongoose/Bomba5.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                (Opcional)
-                                                O MongoDB Compass é utilizado também para verificarmos o que está
-                                                acontecendo na aplicação sem precisar usar o terminal. Para baixá-lo
-                                                acessamos esse link https://www.mongodb.com/try/download/compass.
-                                                Tanto faz qual você irá querer utilizar, ambos possuem a mesma
-                                                função.
-                                                Após ter baixado o MongoDB Compass e abri-lo colocamos o link da
-                                                imagem acima.
-                                                <br><br>
-                                                <img src="img/mongoose/Bomba6.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>
-                                                Após colocarmos a URL devemos substituir onde está escrito
-                                                <"password"> pela senha que foi criada quando estávamos criando o
-                                                    banco de dados, não a senha de cadastro utilizada
-                                                    para acessar o MongoDB. E também substituir <"dbname"> pelo nome
-                                                        criado na criação do banco. Após ter substituído clicamos em
-                                                        “Connect”.
-                                                        Com a conexão feita voltamos ao Visual Studio Code e colamos
-                                                        a URL de conexão na variável que está fazendo a conexão.
-                                                        Lembrando que devemos substituir o <"password"> e <"dbname">
-                                                                .
-                                                                <br><br>
-
-                                                                <img src="img/mongoose/Bomba7.png" alt="..."
-                                                                    class="rounded mx-auto d-block"
-                                                                    style="width: 100%;" />
-                                            </p>
-                                            <!-- Pedro -->
-                                            <h4>Registrar entradas/saídas no BD (Criação de Schemas)</h4>
-                                            <p> Criaremos alguns modelos que serviram como as “tabelas” do banco de
-                                                dados, para isso vamos utilizar de exemplo um modelo chamado:
-                                                “CreditSchema.js”</p>
-                                            <p> Antes de tudo é necessário “chamar” o mongoose, para isso criamos
-                                                uma variável chamado mongoose.
-                                                <img src="img/mongoose/pngph-1.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>E então criaremos outra variável com dois atributos, uma para ser o
-                                                nome e a outra para ser o valor.
-                                                <img src="img/mongoose/pngph-2.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <p>É nessa hora que é definido o tipo de dado para o atributo (String,
-                                                double, int), se o campo é required ou não para o BD, e uma mensagem
-                                                se for required.</p>
-
-                                            <p>Detalhe que no segundo atributo é possível criar um min e/ou max para
-                                                tal atributo:
-                                                <img src="img/mongoose/pngph-3.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-
-                                            <p>Após a criação da primeira model, iremos criar também o modelo para
-                                                Débito chamado: “DebitSchema.js”
-                                                <img src="img/mongoose/pngph-4.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-
-                                            <p>A estrutura é basicamente a mesma, a diferença é que criamos um
-                                                atributo chamado status (string) em que podemos definir como
-                                                uppercase ou lowercase e criamos um enum para definir quais as
-                                                strings aceitáveis para tal campo.
-                                                <img src="img/mongoose/pngph-4.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 50%;" />
-                                            </p>
-                                            <!-- Lukas -->
-                                            <h4>BillingCycle Schema</h4>
-                                            <p>
-                                                Um pouco diferente dos outros Schemas, o objeto BillingCycles
-                                                servirá para agrupar as informações de um ciclo de pagamento. Possui
-                                                ao invés dos demais, apenas os campos informativos deste ciclo de
-                                                pagamento. No caso data e oSs atributos de créditos e débitos.
-
-                                            <h6> Classe:</h6>
-                                            <img src="img/mongoose/billingcycle.png" alt="..."
-                                                class="rounded mx-auto d-block" style="width: 70%;" />
-                                            </p>
-                                            <p>
-                                                Para fazer a conversão das informações que chegam em uma requisição,
-                                                utilizaremos a biblioteca body-parser para converter o json com as
-                                                informações para gravar no banco.
-
-                                            <h6> Como configurar:</h6>
-                                            <img src="img/mongoose/bodyparser.png" alt="..."
-                                                class="rounded mx-auto d-block" style="width: 70%;" />
-                                            </p>
-                                            <p> Para coletar a requisição e mandar gravar no banco, precisamos do
-                                                billingCyclesSchema, pois ele foi feito para realizar as operações
-                                                de CRUD.
-                                            <h6> Setamos ele como require: </h6>
-                                            <img src="img/mongoose/coletarrequisicao.png" alt="..."
-                                                class="rounded mx-auto d-block" style="width: 70%;" />
-                                            </p>
-                                            <p> Para gravar ao banco então, enviamos o body (json) pelo billinCycles
-                                                nossa “tabela”.
-                                                <p />
-                                                <img src="img/mongoose/passandoreqbody.png" alt="..."
-                                                    class="rounded mx-auto d-block" style="width: 70%;" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-    </div>
-    </div>
     <!-- Page Footer-->
     <footer class="main-footer">
         <div class="container">
