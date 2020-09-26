@@ -171,7 +171,7 @@
                             aria-expanded="false"
                             aria-controls="collapseOne"
                           >
-                            Node.JS
+                            Angular
                           </button>
                         </h5>
                       </div>
@@ -187,8 +187,8 @@
                             <h4>O que é:</h4>
                             <br>
                             <p>
-                                É uma plataforma criada para o desenvolvimento de single page application 
-                                que dinamicamente reescreve a página a reescrevendo com novos dados 
+                                É um framework de código criado para o desenvolvimento de aplicativos web  
+                                baseados em uma página dinâmica, que se reescreve com novos dados 
                                 emitidos do servidor. Qualquer aplicação angular necessita de um modulo e 
                                 um componente no mínimo, e a maioria das criações são componentes que se 
                                 comportam de jeitos diferentes na aplicação. 
@@ -200,7 +200,7 @@
                             <h4>PRÉ REQUISITOS</h4>
                             <p>
                                 Por até então termos trabalhado com um projeto de configuração mínima, é preciso 
-                                ir até angular.json   e definir ‘inlineTemplate’ e ‘InlineStyle’ para falso, para que estes
+                                ir até angular.json  e definir ‘inlineTemplate’ e ‘InlineStyle’ para falso, para que estes
                                  não fiquem no mesmo arquivo, e assim os três arquivos do componente sejam gerados.
                             </p>
                             <p>
@@ -293,6 +293,47 @@
                             EXEMPLO: ng generate component views/cycles/list-cycles
                             Vale ressaltar que ao se abrir um novo terminal deve-se entrar na pasta determinada via cd.
                             </p>
+                            <h4>TYPESCRIPT</h4>
+                            <p>
+                              Surgiu como um superste do JavaScript, com o objetivo de adicionar a este 
+                              novas funções que não possui nativamente, ou requererem grande esforço para 
+                              utilização, incluindo uma forte tipagem e a própria orientação a objetos.<br>
+                              Uma das grandes vantagens da TypeScript é permitir que os IDEs proporcionem 
+                              um ambiente mais rico para detectar erros comuns enquanto você digita o código 
+                              usando o recurso Intellisense, além de apresentar recursos como os tipos, objetos e
+                               funções.<br>
+                              É a linguagem oficial utilizada pelo Angular, comportando toda programação em si realizada 
+                              neste dentro de seus componentes.                              
+                                <p>
+                                    <img src="img/type.png" alt="..."
+                                    class="rounded mx-auto d-block" style="width: 50%;" />
+                                </p>
+                                 Comando para instalação do TypeScript
+                            </p>
+                            <h4>INJEÇÃO DE DEPENDÊNCIA</h4>
+                            <p>
+                              É um é um padrão de projeto usado para evitar o alto nível de acoplamento de código 
+                              dentro de uma aplicação ou seja, basicamente é um padrão, ajuda a eliminar o forte 
+                              acoplamento entre os módulos da aplicação.<br>
+                              Tendo um menor acoplamento de código ajuda o sistema com o aumento da facilidade 
+                              de manutenção ou inserção de novas funções principalmente. <br>
+                              Como funciona: quando falamos em dependência, estamos falando da necessidade de 
+                              um arquivo ou objeto externo que será preciso para a aplicação.<br>
+                              Como usar: Deve-se importar um objeto de rotas assim informando no construtor o 
+                              objeto necessário e automaticamente o angular injeta o objeto na classe determinada 
+                              informando um objeto privado utilizando o comando private (somente disponível em TS) 
+                              sendo ele um objeto chamado router do tipo router utilizando dois pontos para diferenciação 
+                              (:): IMPORT                         
+                                <p>
+                                    <img src="img/injecao.png" alt="..."
+                                    class="rounded mx-auto d-block" style="width: 50%;" />
+                                </p>
+                                <h3>INJEÇÃO DO OBJETO</h3>
+                                <p>
+                                  <img src="img/injecao2.png" alt="..."
+                                  class="rounded mx-auto d-block" style="width: 50%;" />
+                              </p>
+                              </p>
                           </div>
                         </div>
                       </div>
