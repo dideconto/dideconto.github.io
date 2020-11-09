@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Aula VIII - 29/10/2020</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom icon font-->
+    <link rel="stylesheet" href="../../css/fontastic.css" />
+    <!-- Google fonts - Open Sans-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+    />
+    <!-- Fancybox-->
+    <link
+      rel="stylesheet"
+      href="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.css"
+    />
+    <!-- theme stylesheet-->
+    <link
+      rel="stylesheet"
+      href="../../css/style.default.css"
+      id="theme-stylesheet"
+    />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../../css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <header class="header">
+      <!-- Main Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <div
+            class="navbar-header d-flex align-items-center justify-content-between"
+          >
+            <!-- Navbar Brand --><a
+              href="../../../index.html"
+              class="navbar-brand"
+              >Blog de Desenvolvimento Web II</a
+            >
+            <!-- Toggle Button-->
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarcollapse"
+              aria-controls="navbarcollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler"
+            >
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+          <!-- Navbar Menu -->
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../../../instructions.html" class="nav-link"
+                  >Instruções</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../../../contacts.html" class="nav-link">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a href="../../../about.html" class="nav-link">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <!-- Latest Posts -->
+        <main class="post blog-post col-lg-12">
+          <div class="container">
+            <div class="post-single">
+              <div class="post-thumbnail" style="text-align: center">
+                <iframe
+                  height="315"
+                  width="560"
+                  src="https://www.youtube.com/embed/5ul7jG0wHpM"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div style="margin-top: 30px" class="post-details">
+                <h1>Aula VIII - 29/10/2020</h1>
+                <div
+                  class="post-footer d-flex align-items-center flex-column flex-sm-row"
+                >
+                  <!-- Avatar e nome dos autores -->
+                  <!-- PARTICIPANTES -->
+                               <!-- Dieiverson Kava -->
+                               <a href="#" class="author d-flex align-items-center flex-wrap">
+                                <div class="avatar">
+                                    <img src="../../img-authors/dieiverson.jpeg" alt="..." class="img-fluid" />
+                                </div>
+                                <div class="title"><span>Dieiverson Kava</span></div>
+                            </a>
+                            <!-- Gabriel Rulka Tardoski -->
+                            <a href="#" class="author d-flex align-items-center flex-wrap">
+                                <div class="avatar">
+                                    <img src="../../img-authors/gabriel_rt.jpg" alt="..." class="img-fluid" />
+                                </div>
+                                <div class="title"><span>Gabriel R. Tardoski</span></div>
+                            </a>
+                            <!-- Igor Menon Mattos Silva -->
+                            <a href="#" class="author d-flex align-items-center flex-wrap">
+                                <div class="avatar">
+                                    <img src="../../img-authors/igor.jpeg" alt="..." class="img-fluid" />
+                                </div>
+                                <div class="title"><span>Igor Silva</span></div>
+                            </a>
+                  <div class="d-flex align-items-center flex-wrap">
+                    <div class="date">
+                      <i class="icon-clock"></i> Postado em: 29/10/2020
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  style="margin-top: 30px"
+                  class="accordion"
+                  id="accordionExample"
+                >
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          Adicionando créditos dentro do ciclo de pagamento
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <div class="post-body">
+
+                          <!--  Grupo V -->
+                          <h4>Primeiro passo: Criar um método simples para o clique do botão</h4>
+                          <br />
+                          <p>
+                            Método exemplo
+                          </p>
+                          <p>
+                            <img
+                              src="img/botaocod.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+                          <p>
+                            E então o vincule ao html apropriado
+                          </p>
+                          <p>
+                            <img
+                              src="img/botaohtml.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+                          <p>                    
+                          Caso queira testar o método, certifique-se de manter o console.log acima,
+                          para então procurar por seu conteúdo com um console.log, no caso do exemplo, o
+                          "chegamos aqui".
+                        </p>
+
+                          <h4>Segundo passo: Crie o objeto de crédito</h4>
+                          <br />
+                          <p>
+                            Antes de tudo, crie suas variáveis de nome e valor
+                          </p>
+                          <p>
+                            <img
+                              src="img/valornome.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+                          <p>
+                            E então, de modo similar ao passo anterior, faça como antes e os vincule ao html esperado
+                          </p>
+                          <p>
+                            <img
+                              src="img/vincule.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+
+                          <p>
+                            Caso queira realizar um teste, crie o objeto e o exiba com um console.log
+                          </p>
+                          <p>
+                            <img
+                              src="img/teste2.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+
+                          <p>
+                            Em sequência, deixe a variável crédito declarada e instanciada
+                          </p>
+                          <p>
+                            <img
+                              src="img/credito.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+
+                          <p>
+                            Caso sua classe não detenha um construtor, como o exemplo, será necessário que faça o mesmo
+                            para os demais parâmetros, como na imagem abaixo.
+                          </p>
+                          <p>
+                            <img
+                              src="img/construtorNao.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            Use o console.log e o inspecionar elemento na página para realizar um teste final, como no passo anterior.
+                          </p>
+
+                          <h4>Terceiro passo: Adicionar o objeto dentro de um array.</h4>
+                          <br />
+                          <p>
+                           Comece criando o array em si, com o valor vazio.
+                          </p>
+                          <p>
+                            <img
+                              src="img/valorarray.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+                          <p>
+                            E então o adicione ao método de crédito, fazendo uso do '.push'
+                           </p>
+                           <p>
+                             <img
+                               src="img/addmetodo.png"
+                               alt="..."
+                               class="rounded mx-auto d-block"
+                               style="width: 50%"
+                             />
+                           </p>
+                           <p>
+                            E então adicione e instancie o array no ciclo de criação. 
+                            Use o concole.log se quiser realizar um teste final, tomando cuidado para ver se o valor correspondente
+                            de cada posição é exibido.
+                           </p>
+                           <p>
+                             <img
+                               src="img/teste3.png"
+                               alt="..."
+                               class="rounded mx-auto d-block"
+                               style="width: 50%"
+                             />
+                           </p>
+
+                          <!-- Grupo ? -->
+                          <p>
+                          </p>
+                          <p>
+                            <img
+                              src="img/png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- Page Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <h6 class="text-white">
+                Blog de Desenvolvimento Web II - Material Kit
+              </h6>
+            </div>
+            <div class="contact-details">
+              <p>Universidade Positivo</p>
+              <p>Professor: Diogo Steine Deconto</p>
+              <p>
+                Email:
+                <a href="mailto:diogo.deconto@up.edu.br"
+                  >diogo.deconto@up.edu.br</a
+                >
+              </p>
+              <ul class="social-menu">
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/diogodeconto"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.linkedin.com/in/diogo-steinke-deconto-2b974a93/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2017. All rights reserved. Your great site.</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <p>
+                Template By
+                <a
+                  href="https://bootstrapious.com/p/bootstrap-carousel"
+                  class="text-white"
+                  >Bootstrapious</a
+                >
+                <!-- Please do not remove the backlink to Bootstrap Temple unless you purchase an attribution-free license @ Bootstrap Temple or support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)                         -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/popper.js/umd/popper.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../js/front.js"></script>
+  </body>
+</html>
