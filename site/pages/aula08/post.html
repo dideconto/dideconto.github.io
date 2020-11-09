@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Aula V - 17/09/2020</title>
+    <title>Aula VIII - 05/11/2020</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="all,follow" />
@@ -168,7 +168,161 @@
                       >
                         <div class="card-body">
                           <div class="post-body">
-                                <!-- CONTEÚDO DA AULA -->
+
+                                <!-- DIV PARA OS TEXTOS DO CONTEÚDO DA AULA -->
+
+                            <h4>Correção na tabela de créditos</h4>
+                            <br />
+                            <p>No modelo da aula onde estava dando erro, passava-se um array de créditos como 
+                              origem dos dados que seriam vinculados à tabela:
+                            </p>    
+                            <img
+                              src="img/1tabcorrecao.jpg"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>O array correto deve ser do tipo MatTableDataSource, que é a fonte de dados da tabela. 
+                              Para o uso dele é definido os dados utilizados, no caso da aula é o "Credit" e passa-se no construtor o objeto que conterá os dados, "this.credits":
+                            </p>
+                            <img
+                              src="img/2mattab.jpg"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>No método "addCredit", atualiza as mudanças por meio do objeto que gerencia 
+                              a tabela "creditsTable":
+                            </p>
+                            <img
+                              src="img/3objcredits.jpg"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <h4>Levar os dados ao clicar em alterar e fazer update</h4>
+                            <br />
+                            <p>Criar uma rota no arquivo "app-routing.modules.ts" que receba um parâmetro, nesse caso "id":
+                            </p>
+                            <img
+                              src="img/4rota.jpg"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>Criar um service que consome e traz o objeto do servidor (o baseURL: "http://localhost:1234):
+                            </p>
+                            <img
+                              src="img/5baseurl.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>No arquivo "create-cycle.component.ts" instanciar ActivatedRoute no construtor (permite pegar as informações da rota). 
+                              No ngOnInit atribuir o valor recebido a uma variável e trazer o ciclo de pagamentos acessando o service "getById" (OBS: dentro do get deve estar o mesmo nome do parâmetro que consta na rota.):
+                            </p>
+                            <img
+                              src="img/6.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>Na controller, no server , o método que fará o update:
+                            </p>
+                            <img
+                              src="img/7.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>Rota do servidor para o update:
+                            </p>
+                            <img
+                              src="img/8.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>No service criar método que acesse a rota do servidor e manda um objeto para update:
+                            </p>
+                            <img
+                              src="img/9.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>No arquivo "create-cycle.component.ts" no método para cadastro de ciclos de pagamento:
+                            </p>
+                            <img
+                              src="img/10.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+                            <br />
+
+                            <h4>Ao clicar em um botão/terminar uma ação redirecionar para outra página</h4>
+                            <br />
+
+                            <p>Instanciar no construtor o Router:
+                            </p>
+                            <img
+                              src="img/11.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+
+                            <p>Adicionar ao final de um método a navegação para outra página:
+                            </p>
+                            <img
+                              src="img/12.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
+                            <br />
+
+                            <h4>Como definir formatos para os dados da tabela</h4>
+                            <img
+                              src="img/13.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 30%"
+                            />
+                            <br />
+
+
+                            <p>Na tabela com os dados usar o "|":
+                            </p>
+                            <img
+                              src="img/14.png"
+                              alt="..."
+                              class="rounded mx-auto d-block"
+                              style="width: 50%"
+                            />
+                            <br />
                           </div>
                         </div>
                       </div>
