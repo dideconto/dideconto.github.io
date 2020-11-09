@@ -1,837 +1,811 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Blog Dev. Web II</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="all,follow" />
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="site/vendor/bootstrap/css/bootstrap.min.css" />
-    <!-- Font Awesome CSS-->
-    <link
-      rel="stylesheet"
-      href="site/vendor/font-awesome/css/font-awesome.min.css"
-    />
-    <!-- Custom icon font-->
-    <link rel="stylesheet" href="site/css/fontastic.css" />
-    <!-- Google fonts - Open Sans-->
-    <link
-      rel="stylesheet"
-      href="site/https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
-    />
-    <!-- Fancybox-->
-    <link
-      rel="stylesheet"
-      href="site/vendor/@fancyapps/fancybox/jquery.fancybox.min.css"
-    />
-    <!-- theme stylesheet-->
-    <link
-      rel="stylesheet"
-      href="site/css/style.default.css"
-      id="theme-stylesheet"
-    />
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="site/css/custom.css" />
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png" />
-    <!-- Tweaks for older IEs-->
-    <!--[if lt IE 9]>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Blog Dev. Web II</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="all,follow" />
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="site/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="site/vendor/font-awesome/css/font-awesome.min.css" />
+  <!-- Custom icon font-->
+  <link rel="stylesheet" href="site/css/fontastic.css" />
+  <!-- Google fonts - Open Sans-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" />
+  <!-- Fancybox-->
+  <link rel="stylesheet" href="site/vendor/@fancyapps/fancybox/jquery.fancybox.min.css" />
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="site/css/style.default.css" id="theme-stylesheet" />
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="site/css/custom.css" />
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon.png" />
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
     ><![endif]-->
-  </head>
-  <body>
-    <header class="header">
-      <!-- Main Navbar-->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <!-- Navbar Brand -->
-          <div
-            class="navbar-header d-flex align-items-center justify-content-between"
-          >
-            <!-- Navbar Brand --><a href="index.html" class="navbar-brand"
-              >Blog de Desenvolvimento Web II</a
-            >
-            <!-- Toggle Button-->
-            <button
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarcollapse"
-              aria-controls="navbarcollapse"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              class="navbar-toggler"
-            >
-              <span></span><span></span><span></span>
-            </button>
+</head>
+
+<body>
+  <header class="header">
+    <!-- Main Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <div class="navbar-header d-flex align-items-center justify-content-between">
+          <!-- Navbar Brand --><a href="index.html" class="navbar-brand">Blog de Desenvolvimento Web II</a>
+          <!-- Toggle Button-->
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse"
+            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+        <!-- Navbar Menu -->
+        <div id="navbarcollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="instructions.html" class="nav-link">Instruções</a>
+            </li>
+            <li class="nav-item">
+              <a href="contacts.html" class="nav-link">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section-->
+  <section style="
+        background: url(site/img/hero.jpg);
+        background-size: cover;
+        background-position: center center;
+      " class="hero">
+    <div class="container align-items-end flex-column">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1>Blog de Desenvolvimento Web II</h1>
+          <h2>Node.js, Angular e MongoDB</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Intro Section-->
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="h3">O que vamos aprender?</h2>
+          <p class="text-big">
+            <strong>Aplicar</strong> conceitos, métodos, técnicas através de
+            ferramentas para o desenvolvimento de sistemas Web utilizando
+            linguagens de programação para demonstração conceitual e aplicada
+            aos contextos de mercado com a utilização de Frameworks em nível
+            avançado. <strong>Desenvolver</strong> projetos de software com a
+            utilização de Frameworks, garantindo a resolução algorítmica de
+            problemas. <strong>Elaborar</strong> soluções eficazes,
+            eficientes, efetivas e sustentáveis de sistemas de informação,
+            considerando aspectos tecnológicos, econômicos, sociais e
+            ambientais. <strong> Construir</strong> software para
+            informatização de sistemas avaliando sua qualidade técnica,
+            testando o seu funcionamento, e validando seu atendimento às
+            necessidades de eficácia, eficiência, efetividade e
+            sustentabilidade desses sistemas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="featured-posts no-padding-top">
+    <div class="container">
+      <!-- Post-->
+      <div class="row d-flex align-items-stretch">
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula01/post.html">
+                  <h2 class="h4">
+                    Aula I - 06/08/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Apresentação da disciplina, configuração de ambiente e
+                instalação de todas as ferramentas e tecnologias necessárias.
+              </p>
+              <footer class="post-footer d-flex align-items-center">
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/diogodeconto.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Diogo Deconto</span></div>
+                </a>
+                <div class="date">
+                  <i class="icon-clock"></i> Postado em: 28/07/2020
+                </div>
+              </footer>
+            </div>
           </div>
-          <!-- Navbar Menu -->
-          <div id="navbarcollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="instructions.html" class="nav-link">Instruções</a>
+        </div>
+        <div class="image col-lg-5">
+          <img src="site/img/img_aula01.jpg" alt="..." />
+        </div>
+      </div>
+
+      <!-- Post    13/08/2020 aula 2    -->
+      <div class="row d-flex align-items-stretch">
+        <div class="image col-lg-5">
+          <img src="site/img/img_aula02.jpg" alt="..." />
+        </div>
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula02/post.html">
+                  <h2 class="h4">
+                    Aula II - 13/08/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Aula de introdução ao Node.js e Express.
+              </p>
+              <footer class="post-footer d-flex align-items-center">
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <!-- Avatar e nome dos autores do dia 13/08/2020 -->
+                  <footer class="post-footer d-flex align-items-center">
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/alanachy.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Alan </span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/albrecht.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Albrecht</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/leonardosarturi.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Leonardo</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/luizvalesko.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Luiz V.</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/luizsoaressilva.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Luiz S.</span></div>
+                    </a>
+
+                    <div class="date">
+                      <i class="icon-clock"></i> Postado em: 19/08/2020
+                    </div>
+                  </footer>
+
+                  <!-- Fim dos avatares 13/08/2020 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aula III -->
+      <div class="row d-flex align-items-stretch">
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula03/post.html">
+                  <h2 class="h4">
+                    Aula III - 20/08/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Introdução ao nodemoon, configuração de rotas, organização do projeto, conectar ao banco (mongoDB) com
+                Mongoose e criar os Schemas.
+              </p>
+              <!-- Autores  20/08/2020 -->
+
+              <footer class="post-footer d-flex align-items-center">
+                <!--Felipe Krajevski Dalperio-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/defaultUser.png" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Felipe K.</span></div>
+                </a>
+                <!--Kamilla Delfino -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/kamilladelfino.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span> Kamilla D. </span></div>
+                </a>
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <!--Isabelle de Andrade Bittencourt-->
+                  <div class="avatar">
+                    <img src="site/img-authors/isabellebittencourt.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Isabelle A.</span></div>
+                </a>
+                <!--João Gonçalves-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/joaogoncalves.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>João G.</span></div>
+                </a>
+              </footer>
+              <footer class="post-footer d-flex align-items-center">
+                <!-- Lukas Ferreira -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/lukasferreira.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Lukas F. </span></div>
+                </a>
+                <!-- Matheus Dijan -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/matheusdijan.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Matheus D.</span></div>
+                </a>
+                <!-- Vinicius Junior -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/juniorvinicius.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Vinicius J.</span></div>
+                </a>
+                <!-- Pedro Henrique -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/pedrohenrique.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Pedro H.</span></div>
+                </a>
+
+                <div class="date">
+                  <i class="icon-clock"></i> Postado em: 27/08/2020
+                </div>
+              </footer>
+
+              <!-- Fim dos avatares 20/08/2020 -->
+            </div>
+          </div>
+        </div>
+        <div class="image col-lg-5" style="min-height: 298px;">
+          <img src="site/img/img_aula03.jpg" alt="...">
+        </div>
+      </div>
+      <!--    FIM Aula III -->
+
+      <!-- Aula IV -->
+      <div class="row d-flex align-items-stretch">
+        <div class="image col-lg-5">
+          <img src="site/img/img_aula04.png" alt="..." />
+        </div>
+        <div class="text col-lg-7">
+          <div class="mt-4 d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula04/post.html">
+                  <h2 class="h4">
+                    Aula IV - 27/08/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Criação do controller com os métodos "Cadastrar", "Listar" e "Buscar" e testes da API com JSON e
+                Postman.
+              </p>
+              <footer class="post-footer d-flex align-items-center">
+                <!--Eduardo Neres-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/eduardo_neres.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Eduardo Neres</span></div>
+                </a>
+
+                <!--Gregori Santos-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gregori_santos.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gregori Santos</span></div>
+                </a>
+
+                <!--Guilherme Silva-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/guilherme_ferreira.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Guilherme Silva</span></div>
+                </a>
+
+                <!--Gustavo Carvalho-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gustavo_carvalho.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gustavo Carvalho</span></div>
+                </a>
+
+                <!--Gustavo Kruger-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gustavo_kruger.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gustavo Kruger</span></div>
+                </a>
+
+              </footer>
+              <footer class="post-footer d-flex align-items-center">
+
+                <!--Lorenzo Soares-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/lorenzo_soares.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Lorenzo Soares</span></div>
+                </a>
+
+                <!--Jocelim Junior-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/jocelim_junior.JPG" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Jocelim Junior</span></div>
+                </a>
+
+                <!--Jonatan Pereira-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/jonatan_pereira.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span> Jonatan Pereira </span></div>
+                </a>
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+
+                  <!--Rafael Messias-->
+                  <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="site/img-authors/rafael_messias.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Rafael Messias</span></div>
+                  </a>
+
+                  <div class="date">
+                    <i class="icon-clock"></i> Postado em: 27/08/2020
+                  </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--    FIM Aula IV -->
+
+      <!-- Aula III -->
+      <br>
+      <div class="row d-flex align-items-stretch">
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula05/post.html">
+                  <h2 class="h4">
+                    Aula V - 17/09/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Introdução ao projeto angular e listagem de ciclos de pagamento.
+              </p>
+              <!-- Autores  17/09/2020 -->
+
+              <footer class="post-footer d-flex align-items-center">
+                <!--Scherida Rayane de Souza-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/scheridaRayane.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Scherida R.</span></div>
+                </a>
+                <!--Vinicius Camargo -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/vinicius-camargo.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Vinicius C.</span></div>
+                </a>
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <!--Pedro Vinicius-->
+                  <div class="avatar">
+                    <img src="site/img-authors/pedroVinicius.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Pedro V.</span></div>
+                </a>
+                <!--Aline-->
+                <div class="avatar">
+                  <img src="site/img-authors/Aline_Kmiecik.jpeg" alt="..." class="img-fluid">
+                </div>
+                <div class="title"><span>Aline</span></div></a>
+                <!--Douglas Gorges-->
+                <div class="avatar">
+                  <img src="site/img-authors/douglas_gorges.jpeg" alt="..." class="img-fluid">
+                </div>
+                <div class="title"><span>D. Gorges</span></div></a>
+              </footer>
+              <footer class="post-footer d-flex align-items-center">
+                <!--Dieiverson-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/dieiverson.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Dieiverson</span></div>
+                </a>
+                <!--Igor-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/igor.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Igor</span></div>
+                </a>
+                <div class="date">
+                  <i class="icon-clock"></i> Postado em: 24/09/2020
+                </div>
+              </footer>
+
+              <!-- Fim dos avatares 20/08/2020 -->
+            </div>
+          </div>
+        </div>
+        <div class="image col-lg-5" style="min-height: 298px;">
+          <img src="site/img/node_angular.png" alt="...">
+        </div>
+      </div>
+      <!--    FIM Aula V -->
+
+      <!-- Post    16/10/2020 aula 6    -->
+      <div class="row d-flex align-items-stretch">
+        <div class="image col-lg-5">
+          <img src="site/img/angular.jpg" alt="..." />
+        </div>
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula06/post.html">
+                  <h2 class="h4">
+                    Aula VI - 16/10/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Aula de Angular Material.
+              </p>
+              <footer class="post-footer d-flex align-items-center">
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <!-- Avatar e nome dos autores do dia 16/10/2020 -->
+                  <footer class="post-footer d-flex align-items-center">
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/alanachy.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Alan </span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/albrecht.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Albrecht</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/leonardosarturi.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Leonardo</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/luizvalesko.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Luiz V.</span></div>
+                    </a>
+
+                    <a href="#" class="author d-flex align-items-center flex-wrap">
+                      <div class="avatar">
+                        <img src="site/img-authors/luizsoaressilva.jpg" alt="..." class="img-fluid" />
+                      </div>
+                      <div class="title"><span>Luiz S.</span></div>
+                    </a>
+
+                    <div class="date">
+                      <i class="icon-clock"></i> Postado em: 22/10/2020
+                    </div>
+                  </footer>
+
+                  <!-- Fim dos avatares 13/08/2020 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Aula VII -->
+      <div class="row d-flex align-items-stretch">
+        <div class="text col-lg-7">
+          <div class="text-inner d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula07/post.html">
+                  <h2 class="h4">
+                    Aula VII - 22/10/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Estilização com Material Kit no AngularJs.
+              </p>
+              <!-- Autores  22/10/2020 -->
+
+              <footer class="post-footer d-flex align-items-center">
+                <!--Felipe Krajevski Dalperio-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/defaultUser.png" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Felipe K.</span></div>
+                </a>
+                <!--Kamilla Delfino -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/kamilladelfino.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span> Kamilla D. </span></div>
+                </a>
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <!--Isabelle de Andrade Bittencourt-->
+                  <div class="avatar">
+                    <img src="site/img-authors/isabellebittencourt.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Isabelle A.</span></div>
+                </a>
+                <!--João Gonçalves-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/joaogoncalves.jpg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>João G.</span></div>
+                </a>
+              </footer>
+              <footer class="post-footer d-flex align-items-center">
+                <!-- Lukas Ferreira -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/lukasferreira.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Lukas F. </span></div>
+                </a>
+                <!-- Matheus Dijan -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/matheusdijan.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Matheus D.</span></div>
+                </a>
+                <!-- Vinicius Junior -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/juniorvinicius.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Vinicius J.</span></div>
+                </a>
+                <!-- Pedro Henrique -->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/pedrohenrique.jpg" alt="..." class="img-fluid" />
+                  </div>
+                  <div class="title"><span>Pedro H.</span></div>
+                </a>
+
+                <div class="date">
+                  <i class="icon-clock"></i> Postado em: 29/10/2020
+                </div>
+              </footer>
+
+              <!-- Fim dos avatares 22/10/2020 -->
+            </div>
+          </div>
+        </div>
+        <div class="image col-lg-5" style="min-height: 370px;">
+          <img src="site/img/img_aula07.png" alt="...">
+        </div>
+      </div>
+      <!--    FIM Aula VII -->
+
+      <!-- Aula VIII -->
+      <div class="row d-flex align-items-stretch">
+        <div class="image col-lg-5">
+          <img src="site/img/img_aula04.png" alt="..." />
+        </div>
+        <div class="text col-lg-7">
+          <div class="mt-4 d-flex align-items-center">
+            <div class="content">
+              <header class="post-header">
+                <a href="site/pages/aula08/post.html">
+                  <h2 class="h4">
+                    Aula VIII - 29/10/2020
+                  </h2>
+                </a>
+              </header>
+              <p>
+                Gravando o Ciclo de Pagamentos, adicionando os créditos e empregando o date.
+              </p>
+              <footer class="post-footer d-flex align-items-center">
+                <!--Eduardo Neres-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/eduardo_neres.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Eduardo Neres</span></div>
+                </a>
+
+                <!--Gregori Santos-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gregori_santos.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gregori Santos</span></div>
+                </a>
+
+                <!--Guilherme Silva-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/guilherme_ferreira.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Guilherme Silva</span></div>
+                </a>
+
+                <!--Gustavo Carvalho-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gustavo_carvalho.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gustavo Carvalho</span></div>
+                </a>
+
+                <!--Gustavo Kruger-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/gustavo_kruger.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Gustavo Kruger</span></div>
+                </a>
+
+              </footer>
+              <footer class="post-footer d-flex align-items-center">
+
+                <!--Lorenzo Soares-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/lorenzo_soares.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Lorenzo Soares</span></div>
+                </a>
+
+                <!--Jocelim Junior-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/jocelim_junior.JPG" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span>Jocelim Junior</span></div>
+                </a>
+
+                <!--Jonatan Pereira-->
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+                  <div class="avatar">
+                    <img src="site/img-authors/jonatan_pereira.jpeg" alt="..." class="img-fluid">
+                  </div>
+                  <div class="title"><span> Jonatan Pereira </span></div>
+                </a>
+                <a href="#" class="author d-flex align-items-center flex-wrap">
+
+                  <!--Rafael Messias-->
+                  <a href="#" class="author d-flex align-items-center flex-wrap">
+                    <div class="avatar">
+                      <img src="site/img-authors/rafael_messias.jpeg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="title"><span>Rafael Messias</span></div>
+                  </a>
+
+                  <div class="date">
+                    <i class="icon-clock"></i> Postado em: 09/11/2020
+                  </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--    FIM Aula VIII -->
+    </div>
+  </section>
+  <!-- Page Footer-->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo">
+            <h6 class="text-white">
+              Blog de Desenvolvimento Web II - Node.js, Angular e MongoDB
+            </h6>
+          </div>
+          <div class="contact-details">
+            <p>Universidade Positivo</p>
+            <p>Professor: Diogo Steine Deconto</p>
+            <p>
+              Email:
+              <a href="mailto:diogo.deconto@up.edu.br">diogo.deconto@up.edu.br</a>
+            </p>
+            <ul class="social-menu">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/diogodeconto"><i class="fa fa-instagram"></i></a>
               </li>
-              <li class="nav-item">
-                <a href="contacts.html" class="nav-link">Contatos</a>
-              </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link">Sobre</a>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/diogo-steinke-deconto-2b974a93/"><i class="fa fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- Hero Section-->
-    <section
-      style="
-        background: url(site/img/hero.jpg);
-        background-size: cover;
-        background-position: center center;
-      "
-      class="hero"
-    >
-      <div class="container align-items-end flex-column">
-        <div class="row">
-          <div class="col-lg-7">
-            <h1>Blog de Desenvolvimento Web II</h1>
-            <h2>Node.js, Angular e MongoDB</h2>
-          </div>
-        </div>
       </div>
-    </section>
-    <!-- Intro Section-->
-    <section class="intro">
+    </div>
+    <div class="copyrights">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h2 class="h3">O que vamos aprender?</h2>
-            <p class="text-big">
-              <strong>Aplicar</strong> conceitos, métodos, técnicas através de
-              ferramentas para o desenvolvimento de sistemas Web utilizando
-              linguagens de programação para demonstração conceitual e aplicada
-              aos contextos de mercado com a utilização de Frameworks em nível
-              avançado. <strong>Desenvolver</strong> projetos de software com a
-              utilização de Frameworks, garantindo a resolução algorítmica de
-              problemas. <strong>Elaborar</strong> soluções eficazes,
-              eficientes, efetivas e sustentáveis de sistemas de informação,
-              considerando aspectos tecnológicos, econômicos, sociais e
-              ambientais. <strong> Construir</strong> software para
-              informatização de sistemas avaliando sua qualidade técnica,
-              testando o seu funcionamento, e validando seu atendimento às
-              necessidades de eficácia, eficiência, efetividade e
-              sustentabilidade desses sistemas.
+          <div class="col-md-6">
+            <p>&copy; 2017. All rights reserved. Your great site.</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <p>
+              Template By
+              <a href="https://bootstrapious.com/p/bootstrap-carousel" class="text-white">Bootstrapious</a>
+              <!-- Please do not remove the backlink to Bootstrap Temple unless you purchase an attribution-free license @ Bootstrap Temple or support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)                         -->
             </p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="featured-posts no-padding-top">
-      <div class="container">
-        <!-- Post-->
-        <div class="row d-flex align-items-stretch">
-          <div class="text col-lg-7">
-            <div class="text-inner d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula01/post.html">
-                    <h2 class="h4">
-                      Aula I - 06/08/2020
-                    </h2></a
-                  >
-                </header>
-                <p>
-                  Apresentação da disciplina, configuração de ambiente e
-                  instalação de todas as ferramentas e tecnologias necessárias.
-                </p>
-                <footer class="post-footer d-flex align-items-center">
-                  <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/diogodeconto.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Diogo Deconto</span></div></a
-                  >
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 28/07/2020
-                  </div>
-                </footer>
-              </div>
-            </div>
-          </div>
-          <div class="image col-lg-5">
-            <img src="site/img/img_aula01.jpg" alt="..." />
-          </div>
-        </div>
-
-        <!-- Post    13/08/2020 aula 2    -->
-        <div class="row d-flex align-items-stretch">
-          <div class="image col-lg-5">
-            <img src="site/img/img_aula02.jpg" alt="..." />
-          </div>
-          <div class="text col-lg-7">
-            <div class="text-inner d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula02/post.html">
-                    <h2 class="h4">
-                      Aula II - 13/08/2020
-                    </h2></a
-                  >
-                </header>
-                <p>
-                  Aula de introdução ao Node.js e Express.
-                </p>
-                <footer class="post-footer d-flex align-items-center">
-                  <a
-                  href="#"
-                  class="author d-flex align-items-center flex-wrap"
-                >
-                <!-- Avatar e nome dos autores do dia 13/08/2020 -->
-                <footer class="post-footer d-flex align-items-center">
-                  <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/alanachy.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Alan </span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/albrecht.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Albrecht</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/leonardosarturi.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Leonardo</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/luizvalesko.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Luiz V.</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/luizsoaressilva.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Luiz S.</span></div></a>
- 
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 19/08/2020
-                  </div>
-                </footer>
-
-                <!-- Fim dos avatares 13/08/2020 -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Aula III -->
-        <div class="row d-flex align-items-stretch">
-          <div class="text col-lg-7">
-            <div class="text-inner d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula03/post.html">
-                    <h2 class="h4">
-                      Aula III - 20/08/2020
-                    </h2></a>
-                </header>
-                <p>
-                  Introdução ao nodemoon, configuração de rotas, organização do projeto, conectar ao banco (mongoDB) com Mongoose  e criar os Schemas.
-                </p>
-                <!-- Autores  20/08/2020 -->
-
-                <footer class="post-footer d-flex align-items-center">
-                    <!--Felipe Krajevski Dalperio-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/defaultUser.png" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Felipe K.</span></div></a>
-                    <!--Kamilla Delfino -->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/kamilladelfino.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span> Kamilla D. </span></div></a>
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <!--Isabelle de Andrade Bittencourt-->
-                    <div class="avatar">
-                      <img src="site/img-authors/isabellebittencourt.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Isabelle A.</span></div></a>
-                    <!--João Gonçalves-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/joaogoncalves.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>João G.</span></div></a>
-                </footer>
-                <footer class="post-footer d-flex align-items-center">
-                  <!-- Lukas Ferreira -->
-                  <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/lukasferreira.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Lukas F. </span></div></a>
-                  <!-- Matheus Dijan -->
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/matheusdijan.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Matheus D.</span></div></a>
-                  <!-- Vinicius Junior -->
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/juniorvinicius.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Vinicius J.</span></div></a>
-                  <!-- Pedro Henrique -->
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/pedrohenrique.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Pedro H.</span></div></a>
-
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 27/08/2020
-                  </div>
-                </footer>
-
-                <!-- Fim dos avatares 20/08/2020 -->
-              </div>
-            </div>
-          </div>
-          <div class="image col-lg-5" style="min-height: 298px;">
-            <img src="site/img/img_aula03.jpg" alt="...">
-          </div>
-        </div>
-        <!--    FIM Aula III -->
-
-
-        <!-- Aula IV -->
-        <div class="row d-flex align-items-stretch">
-          <div class="image col-lg-5">
-            <img src="site/img/img_aula04.png" alt="..." />
-          </div>
-          <div class="text col-lg-7">
-            <div class="mt-4 d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula04/post.html">
-                    <h2 class="h4">
-                      Aula IV - 27/08/2020
-                    </h2></a
-                  >
-                </header>
-                <p>
-                  Criação do controller com os métodos "Cadastrar", "Listar" e "Buscar" e testes da API com JSON e Postman.
-                </p>
-                <footer class="post-footer d-flex align-items-center">
-                  <!--Eduardo Neres-->
-                  <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/eduardo_neres.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Eduardo Neres</span></div></a>
-                    
-                    <!--Gregori Santos-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/gregori_santos.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Gregori Santos</span></div></a>
-  
-                    <!--Guilherme Silva-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/guilherme_ferreira.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Guilherme Silva</span></div></a>
-  
-                    <!--Gustavo Carvalho-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/gustavo_carvalho.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Gustavo Carvalho</span></div></a>
-                    
-                    <!--Gustavo Kruger-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                      <div class="avatar">
-                        <img src="site/img-authors/gustavo_kruger.jpeg" alt="..." class="img-fluid">
-                      </div>
-                      <div class="title"><span>Gustavo Kruger</span></div></a>
-
-                  </footer>
-                  <footer class="post-footer d-flex align-items-center">
-                    
-                    <!--Lorenzo Soares-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/lorenzo_soares.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Lorenzo Soares</span></div></a>
-                    
-                    <!--Jocelim Junior-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/jocelim_junior.JPG" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Jocelim Junior</span></div></a>
-  
-                    <!--Jonatan Pereira-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/jonatan_pereira.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span> Jonatan Pereira </span></div></a>
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-  
-                      <!--Rafael Messias-->
-                      <a href="#" class="author d-flex align-items-center flex-wrap">
-                      <div class="avatar">
-                        <img src="site/img-authors/rafael_messias.jpeg" alt="..." class="img-fluid">
-                      </div>
-                      <div class="title"><span>Rafael Messias</span></div></a>
- 
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 27/08/2020
-                  </div>
-                </footer>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--    FIM Aula IV -->
-
-        <!-- Aula III -->
-        <br>
-        <div class="row d-flex align-items-stretch">
-          <div class="text col-lg-7">
-            <div class="text-inner d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula05/post.html">
-                    <h2 class="h4">
-                      Aula V - 17/09/2020
-                    </h2></a>
-                </header>
-                <p>
-                  Introdução ao projeto angular e listagem de ciclos de pagamento.
-                </p>
-                <!-- Autores  17/09/2020 -->
-
-                <footer class="post-footer d-flex align-items-center">
-                    <!--Scherida Rayane de Souza-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/scheridaRayane.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Scherida R.</span></div></a>
-                    <!--Vinicius Camargo -->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/vinicius-camargo.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Vinicius C.</span></div></a>
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <!--Pedro Vinicius-->
-                    <div class="avatar">
-                      <img src="site/img-authors/pedroVinicius.jpg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Pedro V.</span></div></a>
-                    <!--Aline-->
-                    <div class="avatar">
-                      <img src="site/img-authors/Aline_Kmiecik.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Aline</span></div></a>
-                    <!--Douglas Gorges-->
-                    <div class="avatar">
-                      <img src="site/img-authors/douglas_gorges.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>D. Gorges</span></div></a>
-                </footer>
-                <footer class="post-footer d-flex align-items-center">
-                  <!--Dieiverson-->
-                  <a href="#" class="author d-flex align-items-center flex-wrap">
-                    <div class="avatar">
-                      <img src="site/img-authors/dieiverson.jpeg" alt="..." class="img-fluid">
-                    </div>
-                    <div class="title"><span>Dieiverson</span></div></a>
-                    <!--Igor-->
-                    <a href="#" class="author d-flex align-items-center flex-wrap">
-                      <div class="avatar">
-                        <img src="site/img-authors/igor.jpeg" alt="..." class="img-fluid">
-                      </div>
-                      <div class="title"><span>Igor</span></div></a>
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 24/09/2020
-                  </div>
-                </footer>
-
-                <!-- Fim dos avatares 20/08/2020 -->
-              </div>
-            </div>
-          </div>
-          <div class="image col-lg-5" style="min-height: 298px;">
-            <img src="site/img/node_angular.png" alt="...">
-          </div>
-        </div>
-        <!--    FIM Aula V -->
-        <!-- Post    16/10/2020 aula 6    -->
-        <div class="row d-flex align-items-stretch">
-          <div class="image col-lg-5">
-            <img src="site/img/angular.jpg" alt="..." />
-          </div>
-          <div class="text col-lg-7">
-            <div class="text-inner d-flex align-items-center">
-              <div class="content">
-                <header class="post-header">
-                  <a href="site/pages/aula06/post.html">
-                    <h2 class="h4">
-                      Aula VI - 16/10/2020
-                    </h2></a
-                  >
-                </header>
-                <p>
-                  Aula de Angular Material.
-                </p>
-                <footer class="post-footer d-flex align-items-center">
-                  <a
-                  href="#"
-                  class="author d-flex align-items-center flex-wrap"
-                >
-                <!-- Avatar e nome dos autores do dia 16/10/2020 -->
-                <footer class="post-footer d-flex align-items-center">
-                  <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/alanachy.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Alan </span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/albrecht.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Albrecht</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/leonardosarturi.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Leonardo</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/luizvalesko.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Luiz V.</span></div></a>
-
-                    <a
-                    href="#"
-                    class="author d-flex align-items-center flex-wrap"
-                  >
-                    <div class="avatar">
-                      <img
-                        src="site/img-authors/luizsoaressilva.jpg"
-                        alt="..."
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="title"><span>Luiz S.</span></div></a>
- 
-                  <div class="date">
-                    <i class="icon-clock"></i> Postado em: 22/10/2020
-                  </div>
-                </footer>
-
-                <!-- Fim dos avatares 13/08/2020 -->
-              </div>
-            </div>
-          </div>
-        </div>
-<!-- Aula VII -->
-<div class="row d-flex align-items-stretch">
-  <div class="text col-lg-7">
-    <div class="text-inner d-flex align-items-center">
-      <div class="content">
-        <header class="post-header">
-          <a href="site/pages/aula07/post.html">
-            <h2 class="h4">
-              Aula VII - 22/10/2020
-            </h2></a>
-        </header>
-        <p>
-          Estilização com Material Kit no AngularJs.
-        </p>
-        <!-- Autores  22/10/2020 -->
-
-        <footer class="post-footer d-flex align-items-center">
-            <!--Felipe Krajevski Dalperio-->
-            <a href="#" class="author d-flex align-items-center flex-wrap">
-            <div class="avatar">
-              <img src="site/img-authors/defaultUser.png" alt="..." class="img-fluid">
-            </div>
-            <div class="title"><span>Felipe K.</span></div></a>
-            <!--Kamilla Delfino -->
-            <a href="#" class="author d-flex align-items-center flex-wrap">
-            <div class="avatar">
-              <img src="site/img-authors/kamilladelfino.jpg" alt="..." class="img-fluid">
-            </div>
-            <div class="title"><span> Kamilla D. </span></div></a>
-            <a href="#" class="author d-flex align-items-center flex-wrap">
-            <!--Isabelle de Andrade Bittencourt-->
-            <div class="avatar">
-              <img src="site/img-authors/isabellebittencourt.jpg" alt="..." class="img-fluid">
-            </div>
-            <div class="title"><span>Isabelle A.</span></div></a>
-            <!--João Gonçalves-->
-            <a href="#" class="author d-flex align-items-center flex-wrap">
-            <div class="avatar">
-              <img src="site/img-authors/joaogoncalves.jpg" alt="..." class="img-fluid">
-            </div>
-            <div class="title"><span>João G.</span></div></a>
-        </footer>
-        <footer class="post-footer d-flex align-items-center">
-          <!-- Lukas Ferreira -->
-          <a
-            href="#"
-            class="author d-flex align-items-center flex-wrap"
-          >
-            <div class="avatar">
-              <img
-                src="site/img-authors/lukasferreira.jpg"
-                alt="..."
-                class="img-fluid"
-              />
-            </div>
-            <div class="title"><span>Lukas F. </span></div></a>
-          <!-- Matheus Dijan -->
-            <a
-            href="#"
-            class="author d-flex align-items-center flex-wrap"
-          >
-            <div class="avatar">
-              <img
-                src="site/img-authors/matheusdijan.jpg"
-                alt="..."
-                class="img-fluid"
-              />
-            </div>
-            <div class="title"><span>Matheus D.</span></div></a>
-          <!-- Vinicius Junior -->
-            <a
-            href="#"
-            class="author d-flex align-items-center flex-wrap"
-          >
-            <div class="avatar">
-              <img
-                src="site/img-authors/juniorvinicius.jpg"
-                alt="..."
-                class="img-fluid"
-              />
-            </div>
-            <div class="title"><span>Vinicius J.</span></div></a>
-          <!-- Pedro Henrique -->
-            <a
-            href="#"
-            class="author d-flex align-items-center flex-wrap"
-          >
-            <div class="avatar">
-              <img
-                src="site/img-authors/pedrohenrique.jpg"
-                alt="..."
-                class="img-fluid"
-              />
-            </div>
-            <div class="title"><span>Pedro H.</span></div></a>
-
-          <div class="date">
-            <i class="icon-clock"></i> Postado em: 29/10/2020
-          </div>
-        </footer>
-
-        <!-- Fim dos avatares 22/10/2020 -->
-      </div>
     </div>
-  </div>
-  <div class="image col-lg-5" style="min-height: 370px;">
-    <img src="site/img/img_aula07.png" alt="...">
-  </div>
-</div>
-<!--    FIM Aula VII -->
+  </footer>
+  <!-- JavaScript files-->
+  <script src="site/vendor/jquery/jquery.min.js"></script>
+  <script src="site/vendor/popper.js/umd/popper.min.js"></script>
+  <script src="site/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="site/vendor/jquery.cookie/jquery.cookie.js"></script>
+  <script src="site/vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+  <script src="site/js/front.js"></script>
+</body>
 
-
-        </div>
-    </section>
-    <!-- Page Footer-->
-    <footer class="main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="logo">
-              <h6 class="text-white">
-                Blog de Desenvolvimento Web II - Node.js, Angular e MongoDB
-              </h6>
-            </div>
-            <div class="contact-details">
-              <p>Universidade Positivo</p>
-              <p>Professor: Diogo Steine Deconto</p>
-              <p>
-                Email:
-                <a href="mailto:diogo.deconto@up.edu.br"
-                  >diogo.deconto@up.edu.br</a
-                >
-              </p>
-              <ul class="social-menu">
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com/diogodeconto"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item">
-                  <a
-                    href="https://www.linkedin.com/in/diogo-steinke-deconto-2b974a93/"
-                    ><i class="fa fa-linkedin"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyrights">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2017. All rights reserved. Your great site.</p>
-            </div>
-            <div class="col-md-6 text-right">
-              <p>
-                Template By
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-carousel"
-                  class="text-white"
-                  >Bootstrapious</a
-                >
-                <!-- Please do not remove the backlink to Bootstrap Temple unless you purchase an attribution-free license @ Bootstrap Temple or support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)                         -->
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- JavaScript files-->
-    <script src="site/vendor/jquery/jquery.min.js"></script>
-    <script src="site/vendor/popper.js/umd/popper.min.js"></script>
-    <script src="site/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="site/vendor/jquery.cookie/jquery.cookie.js"></script>
-    <script src="site/vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
-    <script src="site/js/front.js"></script>
-  </body>
 </html>
